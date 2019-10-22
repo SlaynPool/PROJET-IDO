@@ -25,7 +25,7 @@ Buts:
 - S'assurer de repondre au besoin (Cahier des charges -> Etudes de solutions -> S'organise (gantt, Petit taches (Work package dater)))
 gantt  
 WP1 |----USER1----|  
-WP2 ----||------USER2------|
+WP2 ----||------USER2------|  
 WP3(WP1) -----------------||-----USER3------|
 - Ne pas exploser, ni les couts, ni le temps 
 # Budget
