@@ -1,7 +1,7 @@
 Coef 15 
 # Deux referents principals 
-Yassine Haddab
-Sebastien Druon
+Mr Haddab
+Mr Druon
 # Attendu
 Faut que ca marche 
 Si une soutenance ou à la fin, il n'y a pas de truc qui marche, on tape pas la moyenne 
