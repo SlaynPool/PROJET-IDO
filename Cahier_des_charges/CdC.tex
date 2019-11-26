@@ -1,6 +1,12 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc}
 
+% USEPACKAGE
+\usepackage[utf8]{inputenc}
+\usepackage{pgfgantt}
+\usepackage{tikz}
+\usepackage{lscape}
+\usepackage{amsmath}
+% end USEPACKAGE
 \title{Projet Drone}
 \author{nicolas.vadkerti }
 \date{October 2019}
@@ -17,7 +23,7 @@ Nous voulons faire voler un drone avec pour objectif de faire de la video stér�
     \item Etude des formes possibles (quad,tri,Hexa)
     \item Etude du Poids (Moins de 25 Kilo si on veut rester légal) Ne pas oublier: Plus c'est lourd plus ca consomme 
     \item Ajout de capteurs divers 
-    \item Compréhension de la notion de PID
+    \item Compréhension de la notion de PID (https://journals.sagepub.com/doi/full/10.5772/53747)
 \end{itemize}
 \subsection{Etude/Choix d'un firmware Libre} https://opensource.com/article/18/2/drone-projects
 \subsection{Navigation}
@@ -43,9 +49,123 @@ Possibilité: \\
     \item Interpretation des données ? (https://github.com/cleanflight/blackbox-tools) BDD/GRAPHANA ?
 \end{itemize}
 
+\begin{landscape}
+\section{Découpage des taches}
+% \begin{ganttchart}{1}{30}
+%  \gantttitle{test}{30}\\
+%  \gantttitlelist{1,...,30}{1}\\
+%  \ganttbar{Etude des possibilées}{1}{2}
+  % \end{ganttchart}
 
 
 
+
+%Used to draw gantt charts, which I will use for the calendar.
+%Let's define some awesome new ganttchart elements:
+\newganttchartelement{orangebar}{
+    orangebar/.style={
+        inner sep=0pt,
+        draw=red!66!black,
+        very thick,
+        top color=white,
+        bottom color=orange!80
+    },
+    orangebar label font=\slshape,
+    orangebar left shift=.1,
+    orangebar right shift=-.1
+}
+
+\newganttchartelement{bluebar}{
+    bluebar/.style={
+        inner sep=0pt,
+        draw=purple!44!black,
+        very thick,
+        top color=white,
+        bottom color=blue!80
+    },
+    bluebar label font=\slshape,
+    bluebar left shift=.1,
+    bluebar right shift=-.1
+}
+
+\newganttchartelement{greenbar}{
+    greenbar/.style={
+        inner sep=0pt,
+        draw=green!50!black,
+        very thick,
+        top color=white,
+        bottom color=green!80
+    },
+    greenbar label font=\slshape,
+    greenbar left shift=.1,
+    greenbar right shift=-.1
+}
+
+
+\begin{ganttchart}[
+    hgrid style/.style={black, dotted},
+    vgrid={*5{black,dotted}, *1{white, dotted}, *1{black, dashed}},
+    x unit=3mm,
+    y unit chart=9mm,
+    y unit title=12mm,
+    time slot format=isodate,
+    group label font=\bfseries \Large,
+    link/.style={->, thick}
+    ]{2019-10-24}{2019-12-21}
+    \gantttitlecalendar{year, month=name, week}\\
+
+    \ganttgroup[
+        group/.append style={fill=orange}
+    ]{Etude des solutions}{2019-10-24}{2019-11-10}\\ [grid]
+    \ganttorangebar[
+        name=Documentation
+    ]{Documentation}{2019-11-4}{2019-11-10}\\ [grid]
+    
+    \ganttorangebar[
+        name=Completion du Diagramme
+    ]{Completion du Diagramme}{2019-11-11}{2019-11-17}
+%     \ganttlinkedorangebar{}{2019-10-7}{2019-10-10}
+%     \ganttlinkedorangebar{}{2019-10-14}{2019-10-15}
+%     \ganttlinkedorangebar{}{2019-10-17}{2019-10-17}
+%     \ganttlinkedorangebar[name=FMEend]{}{2019-10-21}{2019-10-24}
+%     \ganttlinkedorangebar{}{2019-10-28}{2019-10-31}\\ [grid]
+%     \ganttorangebar[name=Manual]{Manual}{2019-10-30}{2019-10-31}
+%     \ganttlinkedorangebar{}{2019-11-4}{2019-11-7} \ganttnewline[thick, black]
+% 
+%     \ganttgroup[
+%         group/.append style={fill=blue}
+%     ]{Test Cases}{2019-10-27}{2019-11-9}
+%     \ganttgroup[
+%         group/.append style={fill=blue}
+%     ]{}{2019-11-17}{2019-12-19}\\ [grid]
+%     \ganttbluebar{Innocent testing}{2019-10-30}{2019-10-31}
+%     \ganttlinkedbluebar[name=Innocent]{}{2019-11-4}{2019-11-7}
+%     \ganttlinkedbluebar{}{2019-12-4}{2019-12-5}
+%     \ganttlinkedbluebar{}{2019-12-9}{2019-12-10}\\ [grid]
+%     \ganttbluebar{Test Case Testing}{2019-11-6}{2019-11-7}
+% 
+%     \ganttbluebar[name=Writing]{Writing}{2019-11-18}{2019-11-19}
+% 
+%     \ganttgroup[
+%         group/.append style={fill=green}
+%     ]{KLIP Manager}{2019-11-3}{2019-11-9}
+%     \ganttgroup[
+%         group/.append style={fill=green}
+%     ]{}{2019-11-17}{2019-11-23}\\ [grid]
+%     \ganttgreenbar{Manual}{2019-11-4}{2019-11-7}
+%     \ganttlinkedgreenbar{}{2019-11-18}{2019-11-19}
+
+    %Implementing links
+%     \ganttlink[link mid=0.75]{Documentation}{FME}
+%     \ganttlink{FMETutorial}{FME}
+\end{ganttchart}
+
+\end{landscape}
+\section{Etude des solutions}
+\subsection{Forme du drone}
+Un drone peut etre formé de differentes facons. Il peut etre composé de 1 à n bras. Le choix du nombre de bras ce fait notament pour des problemes de protances. En effet, plus on a d'hélice, plus on va pouvoir soulever du poid 
+
+Source : https://tel.archives-ouvertes.fr/file/index/docid/57385/filename/these.pdf Intersant à partir page 57
 
 
 
