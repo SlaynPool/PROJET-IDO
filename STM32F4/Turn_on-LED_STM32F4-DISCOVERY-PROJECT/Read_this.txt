@@ -1,0 +1,14 @@
+***********************************************************************************************************************
+*****************************************************IMPORTANT*********************************************************
+***********************************************************************************************************************
+
+you must not change the name or move the STM32F4-Discovery_FW_V1.1.0 driver folder otherwise you will get error during compiling. 
+this folder containts drivers which the IDE use them to compile the project.
+
+if you will unrar the folders don't miss the STM32F4-Discovery_FW_V1.1.0 folder
+
+
+LED_On_Project1 folder: containt the turning on the LED project without using the Discovery driver. 
+LED_On_Project2 folder: containt the turning on the LED project using the Discovery driver. 
+
+*********** for more information please visit my website @ www.electronics-homemade.com  *********** 
