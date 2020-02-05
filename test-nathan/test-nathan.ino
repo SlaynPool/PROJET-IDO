@@ -1,18 +1,18 @@
 /* pin 11,5,6,10 utilisé
 commence a 12 de throttle OUI
-
+https://md.iutbeziers.org/FlN9Tmo9RiOoI-Lwl6zRcA#
 liste des pin
-Bleu(avant) droit = 12
-Bleu(avant) gauche = 11
-Noir(arriere) droit = 6
-Noir(arriere) gauche = 5
+Bleu(avant) droit = 10 = motD
+Bleu(avant) gauche = 11 = motA
+Noir(arriere) droit = 6 = motC
+Noir(arriere) gauche = 5 = motB
 
 
 */
 
 #include <Servo.h>
 
-Servo motA;
+Servo motA,motB,motC,motD;
 
 void setup() {
   // put your setup code here, to run once:
@@ -110,4 +110,3 @@ void loop() {
     }    
       
   }
-
