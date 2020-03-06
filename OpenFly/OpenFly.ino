@@ -15,19 +15,55 @@ bool initMot(Servo *Mot, int pin){
     delay(200);
     return Mot.attached()
 }
-
-
-void updateValue(int *a, int *b, int *c, int *d){
-    a= MotA.readMicroseconds();
-    b= MotB.readMicroseconds();
-    c= MotC.readMicroseconds();
-    d= MotD.readMicroseconds();
+void updateValue(int *motValue){
+    //!\ readMicroseconds renvoi des int
+    motValue[0] = MotA.readMicroseconds();
+    motValue[1] = MotB.readMicroseconds();
+    motValue[2] = MotC.readMicroseconds();
+    motValue[3] = MotD.readMicroseconds();
 }
 int readInputSerial(int *pitch,int *yaw,int *roll,int *throttle){
     //L'idée est d'avoir fonction qui nous renverra les bonnes valeurs, nous les traiterons autres parts
     // Juste quand nous integrerons notre reel solutions de RX nous n'aurons qu'a modifier cette fonction.
-    
-    
+    //Par exemple, si on voudra faire passer notre RX/overIP, il nous suffira d'ouvrir un socket
+}
+
+bool setmotor(int valMotA, int valMotB, int valMotC, int valMotD){
+    return TRUE;
+
+
+}
+
+
+bool calculMot(bool *error, float *gyroPitch, float *gyroYaw, float *gyroRoll, int *motVal ){
+    int valMotA;
+    int valMotB;
+    int valMotC;
+    int valMotD; 
+    //On fait des calculs qu'il reste à detrminer
+
+
+
+
+ // ON est censé avoir detrminer tous les valMot
+    if setmotor(valMotA, valMotB, valMotC, valMotD){
+        error=TRUE; //PAS PROBLEME
+        return error;
+    }else{
+        error= FALSE;// PROBELEME
+        return error;
+    }
+
+
+
+}
+void failsafe(){ // on rentre dans un cas ou on veut que le drone soit stable, et qu'il descende lentement 
+    bool again;
+    while(again=TRUE){
+        motVal[]= 25,25,25;
+        readGyro(&addrGyro, &gyroPitch, &gyroYaw, &gyroRoll );
+        calculMot(&error, &gyroPitch, &gyroYaw, &gyroRoll, &motVal );
+    }
 
 
 }
@@ -45,38 +81,44 @@ void setup(){
         Serial.println(" MotB Right Init");
     }
     else{    
-        Serial.println(" MotA not fine");
+        Serial.println(" MotB not fine");
         return 1; // ON STOP //SYNTAX A VERIFIER TODO 
     }   
     if initMot(MotC, pinC){
-        Serial.println(" MotB Right Init");
+        Serial.println(" MotC Right Init");
 
     }
     else{
-        Serial.println(" MotA not fine");
+        Serial.println(" MotC not fine");
         return 1; // ON STOP //SYNTAX A VERIFIER TODO 
     }
     if initMot(MotD, pinD){
-         Serial.println(" MotB Right Init");
+         Serial.println(" MotD Right Init");
     }
     else{
-        Serial.println(" MotA not fine");
+        Serial.println(" MotD not fine");
         return 1; // ON STOP //SYNTAX A VERIFIER TODO 
     }
-
-
-
-
-
+    initRX(); 
+    initGyro();
 }
 
 void loop(){
-    int actValA;
-    int actValB;
-    int actValC;
-    int actValD;
-    updateValue(&actValA, &actValB, &actValC, &actValD);
-    readInput(&pitch, &yaw, &roll, &throttle);
-    
+    int motVal[4];
+    bool error;
+    float pitch;
+    float yaw;
+    float roll;
+    float throttle;
+    float throttle[4];
+    float gyroPitch;
+    float gyroYaw;
+    float gyroRoll;
 
+    updateValue(&motVal);
+    readInput(&pitch, &yaw, &roll, &throttle);
+    readGyro(&addrGyro, &gyroPitch, &gyroYaw, &gyroRoll );
+    if (calculMot(&error, &gyroPitch, &gyroYaw, &gyroRoll, &motVal ) == FALSE){ // on appellera le set de vitesse des moteurs à la fin de cette fonction
+        failsafe(); ///// C4EST LA PANIQUE !!!!
+    }
 }
