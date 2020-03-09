@@ -99,7 +99,7 @@ void setup(){
         Serial.println(" MotD not fine");
         return 1; // ON STOP //SYNTAX A VERIFIER TODO 
     }
-    initRX(); 
+    initRX(); //TODO 
     initGyro();
 }
 
