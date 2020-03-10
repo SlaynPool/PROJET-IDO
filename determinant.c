@@ -3,6 +3,25 @@
 
 double detMat(double**,int,int);
 
+void afficheMat(double**,int,int);
+void delMat(double**,int,int);
+
+
+double** createMat(int i, int j){
+    double** tab;
+    tab=malloc(i*sizeof(double*));
+    for (int k=0;k<i;k++){
+        tab[k]=malloc(j*sizeof(double));
+    }
+return tab;
+}
+
+void delMat(double** tab, int i, int j){
+for (int k=0; k<i;k++){
+    free(tab[k]);
+}
+free(tab);
+}
 
 
 
