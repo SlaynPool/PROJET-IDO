@@ -1,4 +1,6 @@
 #include <Servo.h>
+#include "determinant.h"
+
 // Initialisation des moteurs, ainsi que tous les autres péripheriques en tant que variables globals, pour faciliter l'accés de celle-ci
 Servo MotA; 
 const int pinA;
@@ -35,12 +37,20 @@ bool setmotor(int valMotA, int valMotB, int valMotC, int valMotD){
 }
 
 
-bool calculMot(bool *error, float *gyroPitch, float *gyroYaw, float *gyroRoll, int *motVal ){
-    int valMotA;
-    int valMotB;
-    int valMotC;
-    int valMotD; 
-    //On fait des calculs qu'il reste à detrminer
+bool calculMot(bool *error, float *gyroPitch, float *gyroYaw, float *gyroRoll, float *pitch, float *yaw, float *roll, float *throttle ){
+    int valMotA, valMotB, valMotC, valMotD;
+    float truePitch, trueYaw, trueRoll, trueThrottle; 
+    //VOIR FORMULE.PDF
+    //FUSION des valeurs du gyro et des Inputs:
+    truePitch= pitch-gyroPitch;
+    trueYaw= yaw-gyroPitch;
+    trueRoll=roll-gyroRoll;
+    truePitch=pitch-gyroPitch;
+
+    
+    
+    
+
 
 
 
@@ -104,7 +114,7 @@ void setup(){
 }
 
 void loop(){
-    int motVal[4];
+    
     bool error;
     float pitch;
     float yaw;
@@ -118,7 +128,7 @@ void loop(){
     updateValue(&motVal);
     readInput(&pitch, &yaw, &roll, &throttle);
     readGyro(&addrGyro, &gyroPitch, &gyroYaw, &gyroRoll );
-    if (calculMot(&error, &gyroPitch, &gyroYaw, &gyroRoll, &motVal ) == FALSE){ // on appellera le set de vitesse des moteurs à la fin de cette fonction
+    if (calculMot(&error, &gyroPitch, &gyroYaw, &gyroRoll, &pitch, &yaw, &roll, &throttle ) == FALSE){ // on appellera le set de vitesse des moteurs à la fin de cette fonction
         failsafe(); ///// C4EST LA PANIQUE !!!!
     }
 }
