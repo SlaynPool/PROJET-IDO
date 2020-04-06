@@ -11,23 +11,23 @@ void affiche(double** matrice, int i, int j){
 }
 
 int remplisage(double** matrice,int motor,int i, int j, float pitch, float yaw,float roll, float throttle, int k){
-    int col1[3];
+    int col1[4];
     col1[0]=-1;
     col1[1]=1;
     col1[2]=-1;
     col1[3]=1;
-    int col2[3];
+    int col2[4];
     col2[0]=-1;
     col2[1]=-1;
     col2[2]=1;
     col2[3]=1;
 
-    int col3[3];
+    int col3[4];
     col3[0]=1;
     col3[1]=-1;
     col3[2]=-1;
     col3[3]=1;
-
+    
     int ligne1, ligne2, ligne3;
     if(motor==0){
         ligne1=1;
@@ -49,73 +49,29 @@ int remplisage(double** matrice,int motor,int i, int j, float pitch, float yaw,f
         ligne2=1;
         ligne3=2;
     }
-
- 
-    for(int a=0; a<i;a++){
-        for(int b=0; b<j;b++){
-            if(a==motor){
-                if (b==0){
-                    matrice[a][b]=roll;
-                }
-                if (b==1){
-                    matrice[a][b]=pitch;
-                }
-                if(b==2){
-                    matrice[a][b]=yaw;
-                }
-                if (b==3){
-                    matrice[a][b]=throttle;
-                }
-            }
-            if(a==ligne1){
-                if (b==0){
-                    matrice[a][b]=col1[0]*k;
-                }
-                if (b==1){
-                    matrice[a][b]=col1[1]*k;
-                }
-                if(b==2){
-                    matrice[a][b]=col1[2]*k;
-                }
-                if (b==3){
-                    matrice[a][b]=col1[3]*k;
-                }
-            }
-            if(a==ligne2){
-                if (b==0){
-                    matrice[a][b]=col2[0]*k;
-                }
-                if (b==1){
-                    matrice[a][b]=col2[1]*k;
-                }
-                if(b==2){
-                    matrice[a][b]=col2[2]*k;
-                }
-                if (b==3){
-                    matrice[a][b]=col2[3]*k;
-                }
-            }
-            if(a==ligne3){
-                if (b==0){
-                    matrice[a][b]=col3[0]*k;
-                }
-                if (b==1){
-                    matrice[a][b]=col3[1]*k;
-                }
-                if(b==2){
-                    matrice[a][b]=col3[2]*k;
-                }
-                if (b==3){
-                    matrice[a][b]=col3[3]*k;
-                    
-                }
-            }
-        }
+     matrice[motor][0]=roll;
+     matrice[motor][1]=pitch;
+     matrice[motor][2]=yaw;
+     matrice[motor][3]=throttle;
 
 
-    }
-    
-    return 0;
+     matrice[ligne1][0]=col1[0]*k;
+     matrice[ligne1][1]=col1[1]*k; 
+     matrice[ligne1][2]=col1[2]*k;
+     matrice[ligne1][3]=col1[3]*k;
+     
+     matrice[ligne2][0]=col2[0]*k;
+     matrice[ligne2][1]=col2[1]*k; 
+     matrice[ligne2][2]=col2[2]*k;
+     matrice[ligne2][3]=col2[3]*k;
+     
+     matrice[ligne3][0]=col3[0]*k;
+     matrice[ligne3][1]=col3[1]*k; 
+     matrice[ligne3][2]=col3[2]*k;
+     matrice[ligne3][3]=col3[3]*k;
+
+   
+     return 0;
 }
 
 
@@ -177,14 +133,27 @@ double detMat(double** tab, int lg, int col){
     delMat(tab2,lg-1,col-1);
     return det;
 }
-int main(){
+double calculMot(int motor, float pitch, float yaw,float roll, float throttle, int k){
     double** ma_matrice;
     ma_matrice=createMat(4,4);
-    remplisage(ma_matrice,0,4,4,4,4,4,4,5);
-    int res;
+    remplisage(ma_matrice,motor,4,4,pitch,yaw,roll,throttle,k);
+    double res;
     res=detMat(ma_matrice,4,4);
-    affiche(ma_matrice,4,4);
-    printf("%d",res);
+    //printf("detMat= %lf\n",res);
+
+    res= res/(16*k);
+   
+    delMat(ma_matrice,4,4);
+    return res;
 
 
  }
+
+/*
+int main(){
+    double result;
+    result=calculMot(0,4,4,4,4,5);
+    printf("res final =%lf\n",result);
+    return 0;
+    
+}*/
