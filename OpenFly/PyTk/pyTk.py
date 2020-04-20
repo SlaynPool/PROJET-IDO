@@ -78,11 +78,15 @@ class Interface(Frame):
 def calcul(roll, pitch,yaw, throttle,k):
     #mot1= np.array([roll,-k,-k,k], [pitch,k,-k,-k],[yaw,-k,k,-k],[throttle,k,k,k])
     #print(mot1)
-    mot1 = np.array([[roll,-k,-k,k], [pitch,k,-k,-k], [yaw,-k,k,-k], [throttle,k,k,k]])
-    mot2 = np.array([[-k,roll,-k,k], [k,pitch,-k,-k], [-k,yaw,k,-k], [k,throttle,k,k]])
-    mot3 = np.array([[-k,-k,roll,k], [-k,k,pitch,-k], [k,k,yaw,-k], [k,k,throttle,k]])
-    mot4 = np.array([[k,-k,-k,roll], [-k,k,-k,pitch], [-k,-k,k,yaw], [k,k,k,throttle]])
 
+    #mot1 = np.array([[roll,-k,-k,k], [pitch,k,-k,-k], [yaw,-k,k,-k], [throttle,k,k,k]])
+    #mot2 = np.array([[-k,roll,-k,k], [k,pitch,-k,-k], [-k,yaw,k,-k], [k,throttle,k,k]])
+    #mot3 = np.array([[-k,-k,roll,k], [-k,k,pitch,-k], [k,k,yaw,-k], [k,k,throttle,k]])
+    #mot4 = np.array([[k,-k,-k,roll], [-k,k,-k,pitch], [-k,-k,k,yaw], [k,k,k,throttle]])
+    mot1 = np.array([[roll,-k,-k,k], [pitch,k,-k,-k], [yaw,-k,k,-k], [throttle,k,k,k]])
+    mot2 = np.array([[k,roll,-k,k], [k,pitch,-k,-k], [k,yaw,k,-k], [k,throttle,k,k]])
+    mot3 = np.array([[k,-k,roll,k], [k,k,pitch,-k], [k,-k,yaw,-k], [k,k,throttle,k]])
+    mot4 = np.array([[k,-k,-k,roll], [k,k,-k,pitch], [k,-k,k,yaw], [k,k,k,throttle]])
 
 
 
@@ -94,18 +98,19 @@ def calcul(roll, pitch,yaw, throttle,k):
     #print("mot4")
     #print(mot4)
     #print("------------------")
-    valMot1= det(mot1)
-    valMot1= valMot1/(16*k)
-    # print("Mot1")
+    valMot1= det(mot1)/(16*k)
+    print("Mot1")
     print(valMot1)
-    #valMot1= valMot1/(16*k)
-    valMot2= det(mot2)/16*k
+
+    valMot2= det(mot2)/(16*k)
     print("Mot2")
     print(valMot2)
-    valMot3= det(mot3)/16*k
+
+    valMot3= det(mot3)/(16*k)
     print("Mot3")
     print(valMot3)
-    valMot4= det(mot4)/16*k
+
+    valMot4= det(mot4)/(16*k)
     print("Mot4")
     print(valMot4)
     print("---------------------")
