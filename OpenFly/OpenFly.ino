@@ -61,7 +61,7 @@ bool setmotor(int valMotA, int valMotB, int valMotC, int valMotD){
 }
 
 
-bool calMot(bool *error, float *gyroPitch, float *gyroYaw, float *gyroRoll, float *pitch, float *yaw, float *roll, float *throttle ){
+bool calMot( float *gyroPitch, float *gyroYaw, float *gyroRoll, float *pitch, float *yaw, float *roll, float *throttle ){
     double valMotA, valMotB, valMotC, valMotD;
     float truePitch, trueYaw, trueRoll, trueThrottle; 
     //VOIR FORMULE.PDF
@@ -70,18 +70,17 @@ bool calMot(bool *error, float *gyroPitch, float *gyroYaw, float *gyroRoll, floa
     trueYaw= yaw-gyroPitch;
     trueRoll=roll-gyroRoll;
     //trueThrottle=throttle-gyroPitch;
-    valMotA=calculMot(0,truePitch,trueYaw,trueRoll,*throttle, 5);// 5 set selon mon envie...
-    valMotD=calculMot(1,truePitch,trueYaw,trueRoll,*throttle, 5);
-    valMotC=calculMot(2,truePitch,trueYaw,trueRoll,*throttle, 5);
-    valMotD=calculMot(3,truePitch,trueYaw,trueRoll,*throttle, 5);
+    valMotA=calculMoteur(0, truePitch, trueYaw, trueRoll,  *throttle, 5);
+    //valMotA=calculMot(0,truePitch,trueYaw,trueRoll,*throttle, 5);// 5 set selon mon envie...
+    valMotD=calculMoteur(1,truePitch,trueYaw,trueRoll,*throttle, 5);
+    valMotC=calculMoteur(2,truePitch,trueYaw,trueRoll,*throttle, 5);
+    valMotD=calculMoteur(3,truePitch,trueYaw,trueRoll,*throttle, 5);
 
  // ON est censé avoir detrminer tous les valMot
     if (setmotor(valMotA, valMotB, valMotC, valMotD)){
-        *error=true; //PAS PROBLEME
-        return *error;
+        return 0;
     }else{
-        *error= false;// PROBELEME
-        return *error;
+        return 1;
     }
 
 
@@ -96,7 +95,7 @@ void failsafe(){ // on rentre dans un cas ou on veut que le drone soit stable, e
         
         readGyro(addrGyro );
         bool error;
-        calMot(&error, &gyroPitch, &gyroYaw, &gyroRoll, 25,25,25,25 );
+        calMot( &gyroPitch, &gyroYaw, &gyroRoll, 25,25,25,25 );
     }
 
 
@@ -139,7 +138,7 @@ void setup(){
 
 void loop(){
     
-    bool error;
+    
     float pitch;
     float yaw;
     float roll;
@@ -151,7 +150,7 @@ void loop(){
     updateValue(motVal);
     readInputSerial(&pitch, &yaw, &roll, &throttle);
     readGyro(addrGyro);
-    if (calMot(&error, &gyroPitch, &gyroYaw, &gyroRoll, &pitch, &yaw, &roll, &throttle ) == false){ // on appellera le set de vitesse des moteurs à la fin de cette fonction
+    if (calMot( &gyroPitch, &gyroYaw, &gyroRoll, &pitch, &yaw, &roll, &throttle ) == false){ // on appellera le set de vitesse des moteurs à la fin de cette fonction
         failsafe(); ///// C4EST LA PANIQUE !!!!
     }
 }
