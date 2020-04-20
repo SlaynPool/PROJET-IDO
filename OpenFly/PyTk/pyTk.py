@@ -83,6 +83,15 @@ def calcul(roll, pitch,yaw, throttle,k):
     #mot2 = np.array([[-k,roll,-k,k], [k,pitch,-k,-k], [-k,yaw,k,-k], [k,throttle,k,k]])
     #mot3 = np.array([[-k,-k,roll,k], [-k,k,pitch,-k], [k,k,yaw,-k], [k,k,throttle,k]])
     #mot4 = np.array([[k,-k,-k,roll], [-k,k,-k,pitch], [-k,-k,k,yaw], [k,k,k,throttle]])
+    kmat = np.array([[k,-k,-k,k],[k,k,-k,-k],[k,-k,k,-k],[k,k,k,k]])
+    kmatinv= np.linalg.inv(kmat)
+    ptyt = np.array([roll, pitch,yaw,throttle])
+    #print(kmatinv)
+    #print(ptyt)
+
+    val = kmatinv.dot(ptyt)
+    print(val)
+
     mot1 = np.array([[roll,-k,-k,k], [pitch,k,-k,-k], [yaw,-k,k,-k], [throttle,k,k,k]])
     mot2 = np.array([[k,roll,-k,k], [k,pitch,-k,-k], [k,yaw,k,-k], [k,throttle,k,k]])
     mot3 = np.array([[k,-k,roll,k], [k,k,pitch,-k], [k,-k,yaw,-k], [k,k,throttle,k]])
