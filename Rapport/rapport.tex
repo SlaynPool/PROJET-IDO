@@ -259,10 +259,22 @@ Nous avons vu dans cette partie les methodes qu'il faut utiliser pour faire vole
 Avant de debuter cette partie, il est important de rappeller brievement le travail effectué par Nathan Lys. En effet, son rôle a etait de mettre en place une liason TCP/IP entre le drône et la base au sol. Il a décider d'utiliser le Wifi, ce qui à pour avantage de nous offrir un debit important, au depit de la portée de communiquation avec notre appareil. Ceci ne pose pas spécialement de soucis car la loi oblige le vol à vue ce qui limite grandement la distance entre la base au sol et le drone. Pour exploiter cet accés Wifi, il a aussi choisi d'utiliser un Raspberry Pi, ce qui signifie que nous aurons deux cartes disctincts sur notre drone. Une avec pour seul but de calculer et controller les moteurs et une autre carte servant à communiquer avec le sol tous types d'informations. Entre le $\mu$controleur et le Raspberry PI nous exploiterons le protocole serie car il est simple a mettre en place via un port USB, permet d'alimenter le $\mu$controleur, et communiquer avec celui-ci. 
 \subsection{Quelle sont les elements que nous voulons recevoir et emettre au-(x) drone-(s)}
 Comme nous l'avons vu dans la partie précedente, notre drone va avoir besoin de consigne pour voler et etre controlable. De plus, nous voulons implémenter deux caméras sur le drone et donc stream le flux video des deux cameras, et nous aimerions installer une multitude de capteurs sur notre drone. L'utilisation d'un accés Wifi et de faite un reseau IP nous rend très simple la tache. En effet, d'un point de vu pratique, nous n'aurons qu'a ouvrir un socket réseau sur notre Raspberry Pi en ne s'occupant que du contenu des paquets que nous enverrons et que nous recevrons. On peut faire ca dans n'importe quelle language car c'est une operations presque trivial. 
+Comme nous somme dans une situation où la qualité du reseau peut etre fluctuant, toute les données que va récolter notre drone peuvent ne pas etre transmis. Cependant, ce n'est pas forcement un problème car l'utilisation d'un Raspberry Pi nous offre un espace de stockage. On pourra donc, via un système de timestamp pour garder une cohérence temporelle dans nos données. On peut donc imaginer que notre $\mu$controleur transmette au Raspberry Pi les données du MPU6050 mais aussi un timestamp. On utilisera le Raspberry Pi pour récolter toutes les autres données et donc tous les autres capteurs optionnelles. On pourra aussi transmettre les données au format CSV, car il suffira de transmettre du texte ce qui est très leger en terme de taille. De plus, le format CSV est très facile à parser. Toute les données recu au sol pourront donc etre très facilement traité et stocké rapidement dans une base de donnée. ON peut donc imaginer une table par drone, ce qui nous permettrai de faire voler plusieurs drones en même temps.
+\subsection{Alternative en cas de perte de la connexion wifi}
+En cas de perte de connexion Wifi, cela peut etre catastrophique. En effet, si l'on ne peut plus communiquer avec notre drone, on ne peut plus le controller ce qui peut etre dangeureux, et on peut risquer de la casse du materiel. Pour éviter ce risque, on peut ce tourner vers les solutions classiques proposer par le monde de l'aeromodelisme. Pour la partie consigne/controlle du drone, les récépteurs classiques comme ceux de la compagnie FlySky permette de lire via 4 ports ADC le YAW Pitch Roll et Throtlle. Pour la partie video, il existe aussi plusieurs produits souvent appellé VTX. Ils permettrons de recevoir via du materiel spécifique et souvent malheureusement propriétaire une video analogique d'une qualité variable, mais avec très peu de latence. Cela peut etre envisageable pour le pilotage du drone en cas de problèmes mais sont onéreux. 
 
 
+\newpage
+\vspace*{\stretch{1}}        
+\begin{center}
+\section*{Conclusion}
+Ce projet de dévellopement d'un drone open Soucre nous a permis de découvrir l'univers du drone et les concepts qui sont utiliser pour en faire voler un. On a pu voir comment utiliser efficasement un moteur et donc par extension les 4 moteurs. Nous avons aussi vu les principes de fonctionnement de l'automatique via les boucles ouvertes et fermées qui sont au coeurs du vol du drone. Cela implique des concepts mathematique complexe qui sont très intéressante à mettre en pratique. Pour finir nous avons brievement abordée la partie connectivité du drone qui ce trouve etre simple à mettre en place notamment grâce à l'utilisation d'un reseau classique. Malheuressement, le projet a était largement amputé de la partie pratique ce qui pourrait aussi faire l'objet d'un projet à part entier. Ce projet pourrais aussi très intéressant a porter sur STM32F4 ce qui etait à la base prévu en lien avec mon mémoire porté sur l'utilisation d'une carte STM32F4. 
+Merci de votre lecture. 
 
+\end{center}
+\vspace*{\stretch{1}}
 
+\newpage
 \section*{Documentation/source}
 \begin{itemize}
  \item Fonction de la librairie Servo.h :\\
@@ -273,6 +285,8 @@ Comme nous l'avons vu dans la partie précedente, notre drone va avoir besoin de
 \url{https://cdn-global-hk.hobbyking.com/media/file/288905599X28019X33.pdf}
 \item ESC :\\
 \url{https://www.flyingtech.co.uk/sites/default/files/product_files/AfroESC\%2020A\%20USER\%20MANUAL\_0.pdf}
+\item Article de Blog divers sur le sujet: \\
+\url{https://www.firediy.fr/}
 \end{itemize}
 
 
