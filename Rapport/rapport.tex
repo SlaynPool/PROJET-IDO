@@ -74,26 +74,26 @@ Mon projet à etait de crée et dévelloper un software OpenSource pour un drone
 
 \section{Faire voler notre drone} 
 Pour débuter, nous avons cherché à comprendre et maitriser le controle des moteurs Brushless, qui sont les moteurs couraments utilisés dans l'aeromodelisme. L'idée à donc était de comprendre comment utilisé un moteur brushless, de comprendre le fonctionnement d'un "Electronique Speed Control", ESC, et d'etre capable de controler le moteur, via un microcontroleur.
-\subsection{ Materiel}
+\subsection{Materiel}
 \begin{itemize}
  \item Arduino Uno
  \item 4 Afro ESC 20A
  \item 4 Turnigy Multistar 2216-800kv v2
  
 \end{itemize}
-\subsection{ Un moteur brushless}
+\subsection{Un moteur brushless}
 Les moteurs brushless, ou moteur sans balais, sont des moteurs qui comparée aux moteurs à charbon, offrent de bien meilleurs perfomances, que ce soit en terme de couple, d'évacution thérmique donc moins sensible à la chauffe. De plus, il sont bien plus solide que les moteurs à charbon. Voici le schema d'un moteur brushless : 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.250]{image/1.jpg}
 \caption{fonctionnement d'un moteur}
-\label{fig:net }
+\label{fig:net}
 \end{figure}
-Le "problème" de ce type de moteur est qu'ils sont difficiles à controler directement. En effet, il faudrait générer trois signals sinusoidales avec des puissances précises ainsi que des déphasages très précis pour exploiter completement le moteur. C'est pour cela que nous allons nous servir d'ESC pour les controler .
+Le "problème" de ce type de moteur est qu'ils sont difficiles à controler directement. En effet, il faudrait générer trois signals sinusoidales avec des puissances précises ainsi que des déphasages très précis pour exploiter completement le moteur. C'est pour cela que nous allons nous servir d'ESC pour les controler.
 
 \subsection{Les ESC}
- Comme ennoncé précedement, l'ESC aura donc pour objectif de controler notre moteur, et ainsi nous "simplifier" le controle de celui ci. Il existe plusieurs protocoles numeriques pour communniquer avec L'ESC. Cependant, le plus pratique est d'utiliser un signal PWM. Le PWM est la solution la plus pratique car il est très simple de généré un signal PWM grâce à un Arduino. I
+ Comme ennoncé précedement, l'ESC aura donc pour objectif de controler notre moteur, et ainsi nous "simplifier" le controle de celui ci. Il existe plusieurs protocoles numeriques pour communniquer avec L'ESC. Cependant, le plus pratique est d'utiliser un signal PWM. Le PWM est la solution la plus pratique car il est très simple de généré un signal PWM grâce à un Arduino.
 \subsection{Controle d'un moteur}
 Une fois le moteur relié à l'ESC, on peut commencer à controler le moteur, pour les ESC dont on dispose, on utilise la modulation PWM (Modulation à largeur d'impulsion). Durant notre phase de test on a simplement alimenté l'ESC, avec une alimentation réglé sur 14,8V (comme notre batterie). Nous avons ensuite, identifié sur la documentation de l'esc, le pin "SIGNAL", et relié celui ci à un pin de l'arduino capable de généré un PWM (3,5,6,10 et 11). 
 
@@ -241,8 +241,29 @@ ou :
 \end{figure}
 
 \animategraphics[autoplay,loop,width=\textwidth,controls]{5}{image/PID-}{0}{249}
- 
-\subsection{Documentation/source}
+ Si l'animation ne fonctionne pas: \url{https://github.com/SlaynPool/PROJET-IDO/blob/master/Rapport/image/PID.gif}
+ \\On peut voir comment on peut ameliorer la stabilité du système en ajustant les coefficients $Kp$, $K_i$ et $K_d$. Cette méthode est très largement utilisé en automatique pour la stabilité quelle apporte, bien quel possède le défault d'être plus lente à calculer dû notamment aux calcules d'intégrales et de dérivées. Cette methode est celle que nous aurions du utiliser si l'on avait pu effectuer la partie pratique du drone. Ainsi nous aurions du procéder comme ceci : 
+ \begin{itemize}
+  \item Lire l'accelerometre et interpréter les données recu
+  \item Lire les consignes recus par la radiocommande par exemple
+  \item Calculer l'erreurs entre ce que nous voulons et ce que nous avons
+  \item Calculer les valeurs à donner aux ESC pour que les moteurs appliquent la consigne.
+  \item Générer les signaux PWM
+ \end{itemize}
+ Ainsi notre drone serait capable de voler.
+\subsection{Conclusion}
+Nous avons vu dans cette partie les methodes qu'il faut utiliser pour faire voler notre drone. Cela passe evidement par l'utilisation du Combo ESC/Moteurs que nous utilisons ainsi que la methode pour calculer les consignes à appliquer sur chaques moteurs.
+
+\newpage
+\section{Communiquer avec notre drone}
+Avant de debuter cette partie, il est important de rappeller brievement le travail effectué par Nathan Lys. En effet, son rôle a etait de mettre en place une liason TCP/IP entre le drône et la base au sol. Il a décider d'utiliser le Wifi, ce qui à pour avantage de nous offrir un debit important, au depit de la portée de communiquation avec notre appareil. Ceci ne pose pas spécialement de soucis car la loi oblige le vol à vue ce qui limite grandement la distance entre la base au sol et le drone. Pour exploiter cet accés Wifi, il a aussi choisi d'utiliser un Raspberry Pi, ce qui signifie que nous aurons deux cartes disctincts sur notre drone. Une avec pour seul but de calculer et controller les moteurs et une autre carte servant à communiquer avec le sol tous types d'informations. Entre le $\mu$controleur et le Raspberry PI nous exploiterons le protocole serie car il est simple a mettre en place via un port USB, permet d'alimenter le $\mu$controleur, et communiquer avec celui-ci. 
+\subsection{Quelle sont les elements que nous voulons recevoir et emettre au-(x) drone-(s)}
+Comme nous l'avons vu dans la partie précedente, notre drone va avoir besoin de consigne pour voler et etre controlable. De plus, nous voulons implémenter deux caméras sur le drone et donc stream le flux video des deux cameras, et nous aimerions installer une multitude de capteurs sur notre drone. L'utilisation d'un accés Wifi et de faite un reseau IP nous rend très simple la tache. En effet, d'un point de vu pratique, nous n'aurons qu'a ouvrir un socket réseau sur notre Raspberry Pi en ne s'occupant que du contenu des paquets que nous enverrons et que nous recevrons. On peut faire ca dans n'importe quelle language car c'est une operations presque trivial. 
+
+
+
+
+\section*{Documentation/source}
 \begin{itemize}
  \item Fonction de la librairie Servo.h :\\
 \url{https://www.arduino.cc/en/Reference/Servo}
@@ -253,11 +274,6 @@ ou :
 \item ESC :\\
 \url{https://www.flyingtech.co.uk/sites/default/files/product_files/AfroESC\%2020A\%20USER\%20MANUAL\_0.pdf}
 \end{itemize}
-
-
-
-
-
 
 
 \end{document}

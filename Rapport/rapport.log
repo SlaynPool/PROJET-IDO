@@ -1,0 +1,2376 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.6.9)  27 JUL 2020 21:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**rapport.tex
+(./rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/10/15 3.35 The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/10/15 3.35 Babel switching mechanism
+)
+(/usr/share/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2019/09/07 v3.5f French support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/10/15 3.35 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FB@nonchar=\count90
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count91
+\FBold@everypar=\toks16
+\FB@Mht=\dimen104
+\mc@charclass=\count92
+\mc@charfam=\count93
+\mc@charslot=\count94
+\std@mcc=\count95
+\dec@mcc=\count96
+\c@FBcaption@count=\count97
+\listindentFB=\dimen105
+\descindentFB=\dimen106
+\labelindentFB=\dimen107
+\labelwidthFB=\dimen108
+\leftmarginFB=\dimen109
+\parindentFFN=\dimen110
+\FBfnindent=\dimen111
+))
+(/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen120
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count103
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4540.
+Package hyperref Info: Link nesting OFF on input line 4545.
+Package hyperref Info: Hyper index ON on input line 4548.
+Package hyperref Info: Plain pages OFF on input line 4555.
+Package hyperref Info: Backreferencing OFF on input line 4560.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4793.
+\c@Hy@tempcnt=\count104
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5152.
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count105
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+Package hyperref Info: Hyper figures OFF on input line 6423.
+Package hyperref Info: Link nesting OFF on input line 6428.
+Package hyperref Info: Hyper index ON on input line 6431.
+Package hyperref Info: backreferencing OFF on input line 6438.
+Package hyperref Info: Link coloring OFF on input line 6443.
+Package hyperref Info: Link coloring with OCG OFF on input line 6448.
+Package hyperref Info: PDF/A mode OFF on input line 6453.
+LaTeX Info: Redefining \ref on input line 6493.
+LaTeX Info: Redefining \pageref on input line 6497.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/04/01 v2.17c AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen124
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count111
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count112
+\leftroot@=\count113
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count114
+\DOTSCASE@=\count115
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
+\dotsspace@=\muskip11
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks20
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks21
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks22
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2855.
+LaTeX Info: Redefining \] on input line 2856.
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
+)
+(/usr/share/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2019/08/20 PDF & SVG animations from files and inline graphics
+
+
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count123
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count124
+\calc@Bcount=\count125
+\calc@Adimen=\dimen135
+\calc@Bdimen=\dimen136
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count126
+\calc@Cskip=\skip49
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count127
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/share/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-10-28 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-10-28 L3 programming layer (code)
+\c_max_int=\count128
+\l_tmpa_int=\count129
+\l_tmpb_int=\count130
+\g_tmpa_int=\count131
+\g_tmpb_int=\count132
+\l__seq_internal_a_int=\count133
+\l__seq_internal_b_int=\count134
+\g__kernel_prg_map_int=\count135
+\c__ior_term_noprompt_ior=\count136
+\c_log_iow=\count137
+\l_iow_line_count_int=\count138
+\l__iow_line_target_int=\count139
+\l__iow_one_indent_int=\count140
+\l__iow_indent_int=\count141
+\c_zero_dim=\dimen137
+\c_max_dim=\dimen138
+\l_tmpa_dim=\dimen139
+\l_tmpb_dim=\dimen140
+\g_tmpa_dim=\dimen141
+\g_tmpb_dim=\dimen142
+\c_zero_skip=\skip50
+\c_max_skip=\skip51
+\l_tmpa_skip=\skip52
+\l_tmpb_skip=\skip53
+\g_tmpa_skip=\skip54
+\g_tmpb_skip=\skip55
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count142
+\l__intarray_loop_int=\count143
+\c__intarray_sp_dim=\dimen143
+\g__intarray_font_int=\count144
+\c__fp_leading_shift_int=\count145
+\c__fp_middle_shift_int=\count146
+\c__fp_trailing_shift_int=\count147
+\c__fp_big_leading_shift_int=\count148
+\c__fp_big_middle_shift_int=\count149
+\c__fp_big_trailing_shift_int=\count150
+\c__fp_Bigg_leading_shift_int=\count151
+\c__fp_Bigg_middle_shift_int=\count152
+\c__fp_Bigg_trailing_shift_int=\count153
+\c__kernel_randint_max_int=\count154
+\g__fp_array_int=\count155
+\l__fp_array_loop_int=\count156
+\l__sort_length_int=\count157
+\l__sort_min_int=\count158
+\l__sort_top_int=\count159
+\l__sort_max_int=\count160
+\l__sort_true_max_int=\count161
+\l__sort_block_int=\count162
+\l__sort_begin_int=\count163
+\l__sort_end_int=\count164
+\l__sort_A_int=\count165
+\l__sort_B_int=\count166
+\l__sort_C_int=\count167
+\l__str_internal_int=\count168
+\c__str_replacement_char_int=\count169
+\l__tl_analysis_normal_int=\count170
+\l__tl_analysis_index_int=\count171
+\l__tl_analysis_nesting_int=\count172
+\l__tl_analysis_type_int=\count173
+\l__regex_internal_a_int=\count174
+\l__regex_internal_b_int=\count175
+\l__regex_internal_c_int=\count176
+\l__regex_balance_int=\count177
+\l__regex_group_level_int=\count178
+\l__regex_mode_int=\count179
+\c__regex_cs_in_class_mode_int=\count180
+\c__regex_cs_mode_int=\count181
+\l__regex_catcodes_int=\count182
+\l__regex_default_catcodes_int=\count183
+\c__regex_catcode_D_int=\count184
+\c__regex_catcode_S_int=\count185
+\c__regex_catcode_L_int=\count186
+\c__regex_catcode_O_int=\count187
+\c__regex_catcode_A_int=\count188
+\c__regex_all_catcodes_int=\count189
+\l__regex_show_lines_int=\count190
+\l__regex_min_state_int=\count191
+\l__regex_max_state_int=\count192
+\l__regex_left_state_int=\count193
+\l__regex_right_state_int=\count194
+\l__regex_capturing_group_int=\count195
+\l__regex_min_pos_int=\count196
+\l__regex_max_pos_int=\count197
+\l__regex_curr_pos_int=\count198
+\l__regex_start_pos_int=\count199
+\l__regex_success_pos_int=\count266
+\l__regex_curr_char_int=\count267
+\l__regex_curr_catcode_int=\count268
+\l__regex_last_char_int=\count269
+\l__regex_case_changed_char_int=\count270
+\l__regex_curr_state_int=\count271
+\l__regex_step_int=\count272
+\l__regex_min_active_int=\count273
+\l__regex_max_active_int=\count274
+\l__regex_replacement_csnames_int=\count275
+\l__regex_match_count_int=\count276
+\l__regex_min_submatch_int=\count277
+\l__regex_submatch_int=\count278
+\l__regex_zeroth_submatch_int=\count279
+\g__regex_trace_regex_int=\count280
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+\l__box_top_dim=\dimen144
+\l__box_bottom_dim=\dimen145
+\l__box_left_dim=\dimen146
+\l__box_right_dim=\dimen147
+\l__box_top_new_dim=\dimen148
+\l__box_bottom_new_dim=\dimen149
+\l__box_left_new_dim=\dimen150
+\l__box_right_new_dim=\dimen151
+\l__box_internal_box=\box34
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen152
+\l__coffin_offset_x_dim=\dimen153
+\l__coffin_offset_y_dim=\dimen154
+\l__coffin_x_dim=\dimen155
+\l__coffin_y_dim=\dimen156
+\l__coffin_x_prime_dim=\dimen157
+\l__coffin_y_prime_dim=\dimen158
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\g_tmpa_coffin=\box41
+\g_tmpb_coffin=\box42
+\l__coffin_bounding_shift_dim=\dimen159
+\l__coffin_left_corner_dim=\dimen160
+\l__coffin_right_corner_dim=\dimen161
+\l__coffin_bottom_corner_dim=\dimen162
+\l__coffin_top_corner_dim=\dimen163
+\l__coffin_scaled_total_height_dim=\dimen164
+\l__coffin_scaled_width_dim=\dimen165
+\c__coffin_empty_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
+\l__coffin_display_offset_dim=\dimen166
+\l__coffin_display_x_dim=\dimen167
+\l__coffin_display_y_dim=\dimen168
+\g__char_data_ior=\read1
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3deprecation.def
+File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
+))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count281
+\l__pdf_internal_box=\box47
+))
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2019/09/30 v0.34 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count282
+\g_pbs_oc_int=\count283
+)
+(/usr/share/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2019/07/04 v0.16 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count284
+)
+\@anim@box=\box48
+\@anim@measbox=\box49
+\@anim@tmpdima=\dimen169
+\@anim@tmpdimb=\dimen170
+\@anim@num=\count285
+\@anim@curframe=\count286
+\@anim@curframe@zb=\count287
+\@anim@resizeflags=\count288
+\@anim@skipfram=\count289
+\@anim@mulframecnt=\count290
+\@anim@@tmlnfile=\read2
+\@anim@tmpcnt=\count291
+\c@@anim@ltxcnt=\count292
+\@anim@curlayer=\count293
+\@anim@lineno=\count294
+\@anim@curfield=\count295
+\@anim@@resizeflags=\count296
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count297
+\lst@gtempboxa=\box50
+\lst@token=\toks26
+\lst@length=\count298
+\lst@currlwidth=\dimen171
+\lst@column=\count299
+\lst@pos=\count300
+\lst@lostspace=\dimen172
+\lst@width=\dimen173
+\lst@newlines=\count301
+\lst@lineno=\count302
+\lst@maxwidth=\dimen174
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count303
+\lst@skipnumbers=\count304
+\lst@framebox=\box51
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+No file rapport.aux.
+\openout1 = `rapport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Info: Redefining \degres on input line 52.
+LaTeX Info: Redefining \dots on input line 52.
+LaTeX Info: Redefining \up on input line 52.
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 52.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box52
+Package hyperref Info: Link coloring OFF on input line 52.
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count305
+)
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
+\@outlinefile=\write3
+\openout3 = `rapport.out'.
+
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen175
+\scratchbox=\box53
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen176
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count312
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\tf@toc=\write4
+\openout4 = `rapport.toc'.
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<image/1.jpg, id=24, 856.19875pt x 487.8225pt>
+File: image/1.jpg Graphic file (type jpg)
+<use image/1.jpg>
+Package pdftex.def Info: image/1.jpg  used on input line 89.
+(pdftex.def)             Requested size: 214.04916pt x 121.95532pt.
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 101.
+ (./code/1.ino
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [3 <./image/1.jpg>])
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+<image/2.jpg, id=56, 5139.2pt x 3854.4pt>
+File: image/2.jpg Graphic file (type jpg)
+<use image/2.jpg>
+Package pdftex.def Info: image/2.jpg  used on input line 122.
+(pdftex.def)             Requested size: 513.95012pt x 385.46259pt.
+
+Overfull \hbox (30.25325pt too wide) in paragraph at lines 122--123
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+[5 <./image/2.jpg>]
+<image/yawpitchroll.jpg, id=87, 855.998pt x 708.246pt>
+File: image/yawpitchroll.jpg Graphic file (type jpg)
+<use image/yawpitchroll.jpg>
+Package pdftex.def Info: image/yawpitchroll.jpg  used on input line 136.
+(pdftex.def)             Requested size: 213.99898pt x 177.06107pt.
+
+Overfull \hbox (10.41385pt too wide) in paragraph at lines 144--148
+\OT1/cmr/m/n/10 Source : []$\OT1/cmtt/m/n/10 http : / / digibuo . uniovi . es /
+ dspace / bitstream / 10651 / 43461 / 3 / TFG _ Antu % C3 % B1a _ Herrero . pdf
+$[] \OT1/cmr/m/n/10 page
+ []
+
+[6 <./image/yawpitchroll.jpg>]
+<image/SimOpenLoop.jpg, id=103, 773.98839pt x 123.55838pt>
+File: image/SimOpenLoop.jpg Graphic file (type jpg)
+<use image/SimOpenLoop.jpg>
+Package pdftex.def Info: image/SimOpenLoop.jpg  used on input line 216.
+(pdftex.def)             Requested size: 193.49661pt x 30.88951pt.
+<image/SchemaPID.jpg, id=104, 485.68549pt x 133.66064pt>
+File: image/SchemaPID.jpg Graphic file (type jpg)
+<use image/SchemaPID.jpg>
+Package pdftex.def Info: image/SchemaPID.jpg  used on input line 226.
+(pdftex.def)             Requested size: 194.27075pt x 53.4633pt.
+<image/IllustrationGrapPID.jpg, id=105, 563.39516pt x 202.82227pt>
+File: image/IllustrationGrapPID.jpg Graphic file (type jpg)
+<use image/IllustrationGrapPID.jpg>
+Package pdftex.def Info: image/IllustrationGrapPID.jpg  used on input line 238.
+
+(pdftex.def)             Requested size: 225.35406pt x 81.12746pt.
+
+
+LaTeX Warning: Reference `anim@abspage0' on page 7 undefined on input line 243.
+
+
+<image/PID-0.jpg, id=106, 401.5pt x 301.125pt>
+File: image/PID-0.jpg Graphic file (type jpg)
+<use image/PID-0.jpg>
+Package pdftex.def Info: image/PID-0.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-0.jpg> <a0,fr0>
+<image/PID-1.jpg, id=116, 401.5pt x 301.125pt>
+File: image/PID-1.jpg Graphic file (type jpg)
+<use image/PID-1.jpg>
+Package pdftex.def Info: image/PID-1.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-1.jpg> <a0,fr1>
+<image/PID-2.jpg, id=126, 401.5pt x 301.125pt>
+File: image/PID-2.jpg Graphic file (type jpg)
+<use image/PID-2.jpg>
+Package pdftex.def Info: image/PID-2.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-2.jpg>
+<a0,fr2>
+<image/PID-3.jpg, id=136, 401.5pt x 301.125pt>
+File: image/PID-3.jpg Graphic file (type jpg)
+<use image/PID-3.jpg>
+Package pdftex.def Info: image/PID-3.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-3.jpg> <a0,fr3>
+<image/PID-4.jpg, id=146, 401.5pt x 301.125pt>
+File: image/PID-4.jpg Graphic file (type jpg)
+<use image/PID-4.jpg>
+Package pdftex.def Info: image/PID-4.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-4.jpg> <a0,fr4>
+<image/PID-5.jpg, id=156, 401.5pt x 301.125pt>
+File: image/PID-5.jpg Graphic file (type jpg)
+<use image/PID-5.jpg>
+Package pdftex.def Info: image/PID-5.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-5.jpg> <a0,fr5>
+<image/PID-6.jpg, id=166, 401.5pt x 301.125pt>
+File: image/PID-6.jpg Graphic file (type jpg)
+<use image/PID-6.jpg>
+Package pdftex.def Info: image/PID-6.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-6.jpg> <a0,fr6>
+<image/PID-7.jpg, id=177, 401.5pt x 301.125pt>
+File: image/PID-7.jpg Graphic file (type jpg)
+<use image/PID-7.jpg>
+Package pdftex.def Info: image/PID-7.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-7.jpg> <a0,fr7>
+<image/PID-8.jpg, id=187, 401.5pt x 301.125pt>
+File: image/PID-8.jpg Graphic file (type jpg)
+<use image/PID-8.jpg>
+Package pdftex.def Info: image/PID-8.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-8.jpg> <a0,fr8>
+<image/PID-9.jpg, id=197, 401.5pt x 301.125pt>
+File: image/PID-9.jpg Graphic file (type jpg)
+<use image/PID-9.jpg>
+Package pdftex.def Info: image/PID-9.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-9.jpg> <a0,fr9>
+<image/PID-10.jpg, id=207, 401.5pt x 301.125pt>
+File: image/PID-10.jpg Graphic file (type jpg)
+<use image/PID-10.jpg>
+Package pdftex.def Info: image/PID-10.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-10.jpg>
+<a0,fr10>
+<image/PID-11.jpg, id=217, 401.5pt x 301.125pt>
+File: image/PID-11.jpg Graphic file (type jpg)
+<use image/PID-11.jpg>
+Package pdftex.def Info: image/PID-11.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-11.jpg> <a0,fr11>
+<image/PID-12.jpg, id=227, 401.5pt x 301.125pt>
+File: image/PID-12.jpg Graphic file (type jpg)
+<use image/PID-12.jpg>
+Package pdftex.def Info: image/PID-12.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-12.jpg> <a0,fr12>
+<image/PID-13.jpg, id=237, 401.5pt x 301.125pt>
+File: image/PID-13.jpg Graphic file (type jpg)
+<use image/PID-13.jpg>
+Package pdftex.def Info: image/PID-13.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-13.jpg> <a0,fr13>
+<image/PID-14.jpg, id=247, 401.5pt x 301.125pt>
+File: image/PID-14.jpg Graphic file (type jpg)
+<use image/PID-14.jpg>
+Package pdftex.def Info: image/PID-14.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-14.jpg> <a0,fr14>
+<image/PID-15.jpg, id=257, 401.5pt x 301.125pt>
+File: image/PID-15.jpg Graphic file (type jpg)
+<use image/PID-15.jpg>
+Package pdftex.def Info: image/PID-15.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-15.jpg>
+<a0,fr15>
+<image/PID-16.jpg, id=267, 401.5pt x 301.125pt>
+File: image/PID-16.jpg Graphic file (type jpg)
+<use image/PID-16.jpg>
+Package pdftex.def Info: image/PID-16.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-16.jpg> <a0,fr16>
+<image/PID-17.jpg, id=277, 401.5pt x 301.125pt>
+File: image/PID-17.jpg Graphic file (type jpg)
+<use image/PID-17.jpg>
+Package pdftex.def Info: image/PID-17.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-17.jpg> <a0,fr17>
+<image/PID-18.jpg, id=287, 401.5pt x 301.125pt>
+File: image/PID-18.jpg Graphic file (type jpg)
+<use image/PID-18.jpg>
+Package pdftex.def Info: image/PID-18.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-18.jpg> <a0,fr18>
+<image/PID-19.jpg, id=297, 401.5pt x 301.125pt>
+File: image/PID-19.jpg Graphic file (type jpg)
+<use image/PID-19.jpg>
+Package pdftex.def Info: image/PID-19.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-19.jpg> <a0,fr19>
+<image/PID-20.jpg, id=307, 401.5pt x 301.125pt>
+File: image/PID-20.jpg Graphic file (type jpg)
+<use image/PID-20.jpg>
+Package pdftex.def Info: image/PID-20.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-20.jpg>
+<a0,fr20>
+<image/PID-21.jpg, id=317, 401.5pt x 301.125pt>
+File: image/PID-21.jpg Graphic file (type jpg)
+<use image/PID-21.jpg>
+Package pdftex.def Info: image/PID-21.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-21.jpg> <a0,fr21>
+<image/PID-22.jpg, id=327, 401.5pt x 301.125pt>
+File: image/PID-22.jpg Graphic file (type jpg)
+<use image/PID-22.jpg>
+Package pdftex.def Info: image/PID-22.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-22.jpg> <a0,fr22>
+<image/PID-23.jpg, id=337, 401.5pt x 301.125pt>
+File: image/PID-23.jpg Graphic file (type jpg)
+<use image/PID-23.jpg>
+Package pdftex.def Info: image/PID-23.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-23.jpg> <a0,fr23>
+<image/PID-24.jpg, id=347, 401.5pt x 301.125pt>
+File: image/PID-24.jpg Graphic file (type jpg)
+<use image/PID-24.jpg>
+Package pdftex.def Info: image/PID-24.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-24.jpg> <a0,fr24>
+<image/PID-25.jpg, id=357, 401.5pt x 301.125pt>
+File: image/PID-25.jpg Graphic file (type jpg)
+<use image/PID-25.jpg>
+Package pdftex.def Info: image/PID-25.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-25.jpg>
+<a0,fr25>
+<image/PID-26.jpg, id=367, 401.5pt x 301.125pt>
+File: image/PID-26.jpg Graphic file (type jpg)
+<use image/PID-26.jpg>
+Package pdftex.def Info: image/PID-26.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-26.jpg> <a0,fr26>
+<image/PID-27.jpg, id=377, 401.5pt x 301.125pt>
+File: image/PID-27.jpg Graphic file (type jpg)
+<use image/PID-27.jpg>
+Package pdftex.def Info: image/PID-27.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-27.jpg> <a0,fr27>
+<image/PID-28.jpg, id=387, 401.5pt x 301.125pt>
+File: image/PID-28.jpg Graphic file (type jpg)
+<use image/PID-28.jpg>
+Package pdftex.def Info: image/PID-28.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-28.jpg> <a0,fr28>
+<image/PID-29.jpg, id=397, 401.5pt x 301.125pt>
+File: image/PID-29.jpg Graphic file (type jpg)
+<use image/PID-29.jpg>
+Package pdftex.def Info: image/PID-29.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-29.jpg> <a0,fr29>
+<image/PID-30.jpg, id=407, 401.5pt x 301.125pt>
+File: image/PID-30.jpg Graphic file (type jpg)
+<use image/PID-30.jpg>
+Package pdftex.def Info: image/PID-30.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-30.jpg>
+<a0,fr30>
+<image/PID-31.jpg, id=417, 401.5pt x 301.125pt>
+File: image/PID-31.jpg Graphic file (type jpg)
+<use image/PID-31.jpg>
+Package pdftex.def Info: image/PID-31.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-31.jpg> <a0,fr31>
+<image/PID-32.jpg, id=428, 401.5pt x 301.125pt>
+File: image/PID-32.jpg Graphic file (type jpg)
+<use image/PID-32.jpg>
+Package pdftex.def Info: image/PID-32.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-32.jpg> <a0,fr32>
+<image/PID-33.jpg, id=438, 401.5pt x 301.125pt>
+File: image/PID-33.jpg Graphic file (type jpg)
+<use image/PID-33.jpg>
+Package pdftex.def Info: image/PID-33.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-33.jpg> <a0,fr33>
+<image/PID-34.jpg, id=448, 401.5pt x 301.125pt>
+File: image/PID-34.jpg Graphic file (type jpg)
+<use image/PID-34.jpg>
+Package pdftex.def Info: image/PID-34.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-34.jpg> <a0,fr34>
+<image/PID-35.jpg, id=458, 401.5pt x 301.125pt>
+File: image/PID-35.jpg Graphic file (type jpg)
+<use image/PID-35.jpg>
+Package pdftex.def Info: image/PID-35.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-35.jpg>
+<a0,fr35>
+<image/PID-36.jpg, id=468, 401.5pt x 301.125pt>
+File: image/PID-36.jpg Graphic file (type jpg)
+<use image/PID-36.jpg>
+Package pdftex.def Info: image/PID-36.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-36.jpg> <a0,fr36>
+<image/PID-37.jpg, id=478, 401.5pt x 301.125pt>
+File: image/PID-37.jpg Graphic file (type jpg)
+<use image/PID-37.jpg>
+Package pdftex.def Info: image/PID-37.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-37.jpg> <a0,fr37>
+<image/PID-38.jpg, id=488, 401.5pt x 301.125pt>
+File: image/PID-38.jpg Graphic file (type jpg)
+<use image/PID-38.jpg>
+Package pdftex.def Info: image/PID-38.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-38.jpg> <a0,fr38>
+<image/PID-39.jpg, id=498, 401.5pt x 301.125pt>
+File: image/PID-39.jpg Graphic file (type jpg)
+<use image/PID-39.jpg>
+Package pdftex.def Info: image/PID-39.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-39.jpg> <a0,fr39>
+<image/PID-40.jpg, id=508, 401.5pt x 301.125pt>
+File: image/PID-40.jpg Graphic file (type jpg)
+<use image/PID-40.jpg>
+Package pdftex.def Info: image/PID-40.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-40.jpg>
+<a0,fr40>
+<image/PID-41.jpg, id=518, 401.5pt x 301.125pt>
+File: image/PID-41.jpg Graphic file (type jpg)
+<use image/PID-41.jpg>
+Package pdftex.def Info: image/PID-41.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-41.jpg> <a0,fr41>
+<image/PID-42.jpg, id=528, 401.5pt x 301.125pt>
+File: image/PID-42.jpg Graphic file (type jpg)
+<use image/PID-42.jpg>
+Package pdftex.def Info: image/PID-42.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-42.jpg> <a0,fr42>
+<image/PID-43.jpg, id=538, 401.5pt x 301.125pt>
+File: image/PID-43.jpg Graphic file (type jpg)
+<use image/PID-43.jpg>
+Package pdftex.def Info: image/PID-43.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-43.jpg> <a0,fr43>
+<image/PID-44.jpg, id=548, 401.5pt x 301.125pt>
+File: image/PID-44.jpg Graphic file (type jpg)
+<use image/PID-44.jpg>
+Package pdftex.def Info: image/PID-44.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-44.jpg> <a0,fr44>
+<image/PID-45.jpg, id=558, 401.5pt x 301.125pt>
+File: image/PID-45.jpg Graphic file (type jpg)
+<use image/PID-45.jpg>
+Package pdftex.def Info: image/PID-45.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-45.jpg>
+<a0,fr45>
+<image/PID-46.jpg, id=568, 401.5pt x 301.125pt>
+File: image/PID-46.jpg Graphic file (type jpg)
+<use image/PID-46.jpg>
+Package pdftex.def Info: image/PID-46.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-46.jpg> <a0,fr46>
+<image/PID-47.jpg, id=578, 401.5pt x 301.125pt>
+File: image/PID-47.jpg Graphic file (type jpg)
+<use image/PID-47.jpg>
+Package pdftex.def Info: image/PID-47.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-47.jpg> <a0,fr47>
+<image/PID-48.jpg, id=588, 401.5pt x 301.125pt>
+File: image/PID-48.jpg Graphic file (type jpg)
+<use image/PID-48.jpg>
+Package pdftex.def Info: image/PID-48.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-48.jpg> <a0,fr48>
+<image/PID-49.jpg, id=598, 401.5pt x 301.125pt>
+File: image/PID-49.jpg Graphic file (type jpg)
+<use image/PID-49.jpg>
+Package pdftex.def Info: image/PID-49.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-49.jpg> <a0,fr49>
+<image/PID-50.jpg, id=608, 401.5pt x 301.125pt>
+File: image/PID-50.jpg Graphic file (type jpg)
+<use image/PID-50.jpg>
+Package pdftex.def Info: image/PID-50.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-50.jpg>
+<a0,fr50>
+<image/PID-51.jpg, id=618, 401.5pt x 301.125pt>
+File: image/PID-51.jpg Graphic file (type jpg)
+<use image/PID-51.jpg>
+Package pdftex.def Info: image/PID-51.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-51.jpg> <a0,fr51>
+<image/PID-52.jpg, id=628, 401.5pt x 301.125pt>
+File: image/PID-52.jpg Graphic file (type jpg)
+<use image/PID-52.jpg>
+Package pdftex.def Info: image/PID-52.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-52.jpg> <a0,fr52>
+<image/PID-53.jpg, id=638, 401.5pt x 301.125pt>
+File: image/PID-53.jpg Graphic file (type jpg)
+<use image/PID-53.jpg>
+Package pdftex.def Info: image/PID-53.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-53.jpg> <a0,fr53>
+<image/PID-54.jpg, id=648, 401.5pt x 301.125pt>
+File: image/PID-54.jpg Graphic file (type jpg)
+<use image/PID-54.jpg>
+Package pdftex.def Info: image/PID-54.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-54.jpg> <a0,fr54>
+<image/PID-55.jpg, id=658, 401.5pt x 301.125pt>
+File: image/PID-55.jpg Graphic file (type jpg)
+<use image/PID-55.jpg>
+Package pdftex.def Info: image/PID-55.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-55.jpg>
+<a0,fr55>
+<image/PID-56.jpg, id=668, 401.5pt x 301.125pt>
+File: image/PID-56.jpg Graphic file (type jpg)
+<use image/PID-56.jpg>
+Package pdftex.def Info: image/PID-56.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-56.jpg> <a0,fr56>
+<image/PID-57.jpg, id=679, 401.5pt x 301.125pt>
+File: image/PID-57.jpg Graphic file (type jpg)
+<use image/PID-57.jpg>
+Package pdftex.def Info: image/PID-57.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-57.jpg> <a0,fr57>
+<image/PID-58.jpg, id=689, 401.5pt x 301.125pt>
+File: image/PID-58.jpg Graphic file (type jpg)
+<use image/PID-58.jpg>
+Package pdftex.def Info: image/PID-58.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-58.jpg> <a0,fr58>
+<image/PID-59.jpg, id=699, 401.5pt x 301.125pt>
+File: image/PID-59.jpg Graphic file (type jpg)
+<use image/PID-59.jpg>
+Package pdftex.def Info: image/PID-59.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-59.jpg> <a0,fr59>
+<image/PID-60.jpg, id=709, 401.5pt x 301.125pt>
+File: image/PID-60.jpg Graphic file (type jpg)
+<use image/PID-60.jpg>
+Package pdftex.def Info: image/PID-60.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-60.jpg>
+<a0,fr60>
+<image/PID-61.jpg, id=719, 401.5pt x 301.125pt>
+File: image/PID-61.jpg Graphic file (type jpg)
+<use image/PID-61.jpg>
+Package pdftex.def Info: image/PID-61.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-61.jpg> <a0,fr61>
+<image/PID-62.jpg, id=729, 401.5pt x 301.125pt>
+File: image/PID-62.jpg Graphic file (type jpg)
+<use image/PID-62.jpg>
+Package pdftex.def Info: image/PID-62.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-62.jpg> <a0,fr62>
+<image/PID-63.jpg, id=739, 401.5pt x 301.125pt>
+File: image/PID-63.jpg Graphic file (type jpg)
+<use image/PID-63.jpg>
+Package pdftex.def Info: image/PID-63.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-63.jpg> <a0,fr63>
+<image/PID-64.jpg, id=749, 401.5pt x 301.125pt>
+File: image/PID-64.jpg Graphic file (type jpg)
+<use image/PID-64.jpg>
+Package pdftex.def Info: image/PID-64.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-64.jpg> <a0,fr64>
+<image/PID-65.jpg, id=759, 401.5pt x 301.125pt>
+File: image/PID-65.jpg Graphic file (type jpg)
+<use image/PID-65.jpg>
+Package pdftex.def Info: image/PID-65.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-65.jpg>
+<a0,fr65>
+<image/PID-66.jpg, id=769, 401.5pt x 301.125pt>
+File: image/PID-66.jpg Graphic file (type jpg)
+<use image/PID-66.jpg>
+Package pdftex.def Info: image/PID-66.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-66.jpg> <a0,fr66>
+<image/PID-67.jpg, id=779, 401.5pt x 301.125pt>
+File: image/PID-67.jpg Graphic file (type jpg)
+<use image/PID-67.jpg>
+Package pdftex.def Info: image/PID-67.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-67.jpg> <a0,fr67>
+<image/PID-68.jpg, id=789, 401.5pt x 301.125pt>
+File: image/PID-68.jpg Graphic file (type jpg)
+<use image/PID-68.jpg>
+Package pdftex.def Info: image/PID-68.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-68.jpg> <a0,fr68>
+<image/PID-69.jpg, id=799, 401.5pt x 301.125pt>
+File: image/PID-69.jpg Graphic file (type jpg)
+<use image/PID-69.jpg>
+Package pdftex.def Info: image/PID-69.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-69.jpg> <a0,fr69>
+<image/PID-70.jpg, id=809, 401.5pt x 301.125pt>
+File: image/PID-70.jpg Graphic file (type jpg)
+<use image/PID-70.jpg>
+Package pdftex.def Info: image/PID-70.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-70.jpg>
+<a0,fr70>
+<image/PID-71.jpg, id=819, 401.5pt x 301.125pt>
+File: image/PID-71.jpg Graphic file (type jpg)
+<use image/PID-71.jpg>
+Package pdftex.def Info: image/PID-71.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-71.jpg> <a0,fr71>
+<image/PID-72.jpg, id=829, 401.5pt x 301.125pt>
+File: image/PID-72.jpg Graphic file (type jpg)
+<use image/PID-72.jpg>
+Package pdftex.def Info: image/PID-72.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-72.jpg> <a0,fr72>
+<image/PID-73.jpg, id=839, 401.5pt x 301.125pt>
+File: image/PID-73.jpg Graphic file (type jpg)
+<use image/PID-73.jpg>
+Package pdftex.def Info: image/PID-73.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-73.jpg> <a0,fr73>
+<image/PID-74.jpg, id=849, 401.5pt x 301.125pt>
+File: image/PID-74.jpg Graphic file (type jpg)
+<use image/PID-74.jpg>
+Package pdftex.def Info: image/PID-74.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-74.jpg> <a0,fr74>
+<image/PID-75.jpg, id=859, 401.5pt x 301.125pt>
+File: image/PID-75.jpg Graphic file (type jpg)
+<use image/PID-75.jpg>
+Package pdftex.def Info: image/PID-75.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-75.jpg>
+<a0,fr75>
+<image/PID-76.jpg, id=869, 401.5pt x 301.125pt>
+File: image/PID-76.jpg Graphic file (type jpg)
+<use image/PID-76.jpg>
+Package pdftex.def Info: image/PID-76.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-76.jpg> <a0,fr76>
+<image/PID-77.jpg, id=879, 401.5pt x 301.125pt>
+File: image/PID-77.jpg Graphic file (type jpg)
+<use image/PID-77.jpg>
+Package pdftex.def Info: image/PID-77.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-77.jpg> <a0,fr77>
+<image/PID-78.jpg, id=889, 401.5pt x 301.125pt>
+File: image/PID-78.jpg Graphic file (type jpg)
+<use image/PID-78.jpg>
+Package pdftex.def Info: image/PID-78.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-78.jpg> <a0,fr78>
+<image/PID-79.jpg, id=899, 401.5pt x 301.125pt>
+File: image/PID-79.jpg Graphic file (type jpg)
+<use image/PID-79.jpg>
+Package pdftex.def Info: image/PID-79.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-79.jpg> <a0,fr79>
+<image/PID-80.jpg, id=909, 401.5pt x 301.125pt>
+File: image/PID-80.jpg Graphic file (type jpg)
+<use image/PID-80.jpg>
+Package pdftex.def Info: image/PID-80.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-80.jpg>
+<a0,fr80>
+<image/PID-81.jpg, id=919, 401.5pt x 301.125pt>
+File: image/PID-81.jpg Graphic file (type jpg)
+<use image/PID-81.jpg>
+Package pdftex.def Info: image/PID-81.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-81.jpg> <a0,fr81>
+<image/PID-82.jpg, id=930, 401.5pt x 301.125pt>
+File: image/PID-82.jpg Graphic file (type jpg)
+<use image/PID-82.jpg>
+Package pdftex.def Info: image/PID-82.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-82.jpg> <a0,fr82>
+<image/PID-83.jpg, id=940, 401.5pt x 301.125pt>
+File: image/PID-83.jpg Graphic file (type jpg)
+<use image/PID-83.jpg>
+Package pdftex.def Info: image/PID-83.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-83.jpg> <a0,fr83>
+<image/PID-84.jpg, id=950, 401.5pt x 301.125pt>
+File: image/PID-84.jpg Graphic file (type jpg)
+<use image/PID-84.jpg>
+Package pdftex.def Info: image/PID-84.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-84.jpg> <a0,fr84>
+<image/PID-85.jpg, id=960, 401.5pt x 301.125pt>
+File: image/PID-85.jpg Graphic file (type jpg)
+<use image/PID-85.jpg>
+Package pdftex.def Info: image/PID-85.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-85.jpg>
+<a0,fr85>
+<image/PID-86.jpg, id=970, 401.5pt x 301.125pt>
+File: image/PID-86.jpg Graphic file (type jpg)
+<use image/PID-86.jpg>
+Package pdftex.def Info: image/PID-86.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-86.jpg> <a0,fr86>
+<image/PID-87.jpg, id=980, 401.5pt x 301.125pt>
+File: image/PID-87.jpg Graphic file (type jpg)
+<use image/PID-87.jpg>
+Package pdftex.def Info: image/PID-87.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-87.jpg> <a0,fr87>
+<image/PID-88.jpg, id=990, 401.5pt x 301.125pt>
+File: image/PID-88.jpg Graphic file (type jpg)
+<use image/PID-88.jpg>
+Package pdftex.def Info: image/PID-88.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-88.jpg> <a0,fr88>
+<image/PID-89.jpg, id=1000, 401.5pt x 301.125pt>
+File: image/PID-89.jpg Graphic file (type jpg)
+<use image/PID-89.jpg>
+Package pdftex.def Info: image/PID-89.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-89.jpg> <a0,fr89>
+<image/PID-90.jpg, id=1010, 401.5pt x 301.125pt>
+File: image/PID-90.jpg Graphic file (type jpg)
+<use image/PID-90.jpg>
+Package pdftex.def Info: image/PID-90.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-90.jpg>
+<a0,fr90>
+<image/PID-91.jpg, id=1020, 401.5pt x 301.125pt>
+File: image/PID-91.jpg Graphic file (type jpg)
+<use image/PID-91.jpg>
+Package pdftex.def Info: image/PID-91.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-91.jpg> <a0,fr91>
+<image/PID-92.jpg, id=1030, 401.5pt x 301.125pt>
+File: image/PID-92.jpg Graphic file (type jpg)
+<use image/PID-92.jpg>
+Package pdftex.def Info: image/PID-92.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-92.jpg> <a0,fr92>
+<image/PID-93.jpg, id=1040, 401.5pt x 301.125pt>
+File: image/PID-93.jpg Graphic file (type jpg)
+<use image/PID-93.jpg>
+Package pdftex.def Info: image/PID-93.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-93.jpg> <a0,fr93>
+<image/PID-94.jpg, id=1050, 401.5pt x 301.125pt>
+File: image/PID-94.jpg Graphic file (type jpg)
+<use image/PID-94.jpg>
+Package pdftex.def Info: image/PID-94.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-94.jpg> <a0,fr94>
+<image/PID-95.jpg, id=1060, 401.5pt x 301.125pt>
+File: image/PID-95.jpg Graphic file (type jpg)
+<use image/PID-95.jpg>
+Package pdftex.def Info: image/PID-95.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-95.jpg>
+<a0,fr95>
+<image/PID-96.jpg, id=1070, 401.5pt x 301.125pt>
+File: image/PID-96.jpg Graphic file (type jpg)
+<use image/PID-96.jpg>
+Package pdftex.def Info: image/PID-96.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-96.jpg> <a0,fr96>
+<image/PID-97.jpg, id=1080, 401.5pt x 301.125pt>
+File: image/PID-97.jpg Graphic file (type jpg)
+<use image/PID-97.jpg>
+Package pdftex.def Info: image/PID-97.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-97.jpg> <a0,fr97>
+<image/PID-98.jpg, id=1090, 401.5pt x 301.125pt>
+File: image/PID-98.jpg Graphic file (type jpg)
+<use image/PID-98.jpg>
+Package pdftex.def Info: image/PID-98.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-98.jpg> <a0,fr98>
+<image/PID-99.jpg, id=1100, 401.5pt x 301.125pt>
+File: image/PID-99.jpg Graphic file (type jpg)
+<use image/PID-99.jpg>
+Package pdftex.def Info: image/PID-99.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-99.jpg> <a0,fr99>
+<image/PID-100.jpg, id=1110, 401.5pt x 301.125pt>
+File: image/PID-100.jpg Graphic file (type jpg)
+<use image/PID-100.jpg>
+Package pdftex.def Info: image/PID-100.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-100.jpg>
+<a0,fr100>
+<image/PID-101.jpg, id=1120, 401.5pt x 301.125pt>
+File: image/PID-101.jpg Graphic file (type jpg)
+<use image/PID-101.jpg>
+Package pdftex.def Info: image/PID-101.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-101.jpg> <a0,fr101>
+<image/PID-102.jpg, id=1130, 401.5pt x 301.125pt>
+File: image/PID-102.jpg Graphic file (type jpg)
+<use image/PID-102.jpg>
+Package pdftex.def Info: image/PID-102.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-102.jpg> <a0,fr102>
+<image/PID-103.jpg, id=1140, 401.5pt x 301.125pt>
+File: image/PID-103.jpg Graphic file (type jpg)
+<use image/PID-103.jpg>
+Package pdftex.def Info: image/PID-103.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-103.jpg> <a0,fr103>
+<image/PID-104.jpg, id=1150, 401.5pt x 301.125pt>
+File: image/PID-104.jpg Graphic file (type jpg)
+<use image/PID-104.jpg>
+Package pdftex.def Info: image/PID-104.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-104.jpg> <a0,fr104>
+<image/PID-105.jpg, id=1160, 401.5pt x 301.125pt>
+File: image/PID-105.jpg Graphic file (type jpg)
+<use image/PID-105.jpg>
+Package pdftex.def Info: image/PID-105.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-105.jpg> <a0,fr105>
+<image/PID-106.jpg, id=1170, 401.5pt x 301.125pt>
+File: image/PID-106.jpg Graphic file (type jpg)
+<use image/PID-106.jpg>
+Package pdftex.def Info: image/PID-106.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-106.jpg> <a0,fr106>
+<image/PID-107.jpg, id=1181, 401.5pt x 301.125pt>
+File: image/PID-107.jpg Graphic file (type jpg)
+<use image/PID-107.jpg>
+Package pdftex.def Info: image/PID-107.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-107.jpg>
+<a0,fr107>
+<image/PID-108.jpg, id=1191, 401.5pt x 301.125pt>
+File: image/PID-108.jpg Graphic file (type jpg)
+<use image/PID-108.jpg>
+Package pdftex.def Info: image/PID-108.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-108.jpg> <a0,fr108>
+<image/PID-109.jpg, id=1201, 401.5pt x 301.125pt>
+File: image/PID-109.jpg Graphic file (type jpg)
+<use image/PID-109.jpg>
+Package pdftex.def Info: image/PID-109.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-109.jpg> <a0,fr109>
+<image/PID-110.jpg, id=1211, 401.5pt x 301.125pt>
+File: image/PID-110.jpg Graphic file (type jpg)
+<use image/PID-110.jpg>
+Package pdftex.def Info: image/PID-110.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-110.jpg> <a0,fr110>
+<image/PID-111.jpg, id=1221, 401.5pt x 301.125pt>
+File: image/PID-111.jpg Graphic file (type jpg)
+<use image/PID-111.jpg>
+Package pdftex.def Info: image/PID-111.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-111.jpg> <a0,fr111>
+<image/PID-112.jpg, id=1231, 401.5pt x 301.125pt>
+File: image/PID-112.jpg Graphic file (type jpg)
+<use image/PID-112.jpg>
+Package pdftex.def Info: image/PID-112.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-112.jpg> <a0,fr112>
+<image/PID-113.jpg, id=1241, 401.5pt x 301.125pt>
+File: image/PID-113.jpg Graphic file (type jpg)
+<use image/PID-113.jpg>
+Package pdftex.def Info: image/PID-113.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-113.jpg> <a0,fr113>
+<image/PID-114.jpg, id=1251, 401.5pt x 301.125pt>
+File: image/PID-114.jpg Graphic file (type jpg)
+<use image/PID-114.jpg>
+Package pdftex.def Info: image/PID-114.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-114.jpg>
+<a0,fr114>
+<image/PID-115.jpg, id=1261, 401.5pt x 301.125pt>
+File: image/PID-115.jpg Graphic file (type jpg)
+<use image/PID-115.jpg>
+Package pdftex.def Info: image/PID-115.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-115.jpg> <a0,fr115>
+<image/PID-116.jpg, id=1271, 401.5pt x 301.125pt>
+File: image/PID-116.jpg Graphic file (type jpg)
+<use image/PID-116.jpg>
+Package pdftex.def Info: image/PID-116.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-116.jpg> <a0,fr116>
+<image/PID-117.jpg, id=1281, 401.5pt x 301.125pt>
+File: image/PID-117.jpg Graphic file (type jpg)
+<use image/PID-117.jpg>
+Package pdftex.def Info: image/PID-117.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-117.jpg> <a0,fr117>
+<image/PID-118.jpg, id=1291, 401.5pt x 301.125pt>
+File: image/PID-118.jpg Graphic file (type jpg)
+<use image/PID-118.jpg>
+Package pdftex.def Info: image/PID-118.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-118.jpg> <a0,fr118>
+<image/PID-119.jpg, id=1301, 401.5pt x 301.125pt>
+File: image/PID-119.jpg Graphic file (type jpg)
+<use image/PID-119.jpg>
+Package pdftex.def Info: image/PID-119.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-119.jpg> <a0,fr119>
+<image/PID-120.jpg, id=1311, 401.5pt x 301.125pt>
+File: image/PID-120.jpg Graphic file (type jpg)
+<use image/PID-120.jpg>
+Package pdftex.def Info: image/PID-120.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-120.jpg> <a0,fr120>
+<image/PID-121.jpg, id=1321, 401.5pt x 301.125pt>
+File: image/PID-121.jpg Graphic file (type jpg)
+<use image/PID-121.jpg>
+Package pdftex.def Info: image/PID-121.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-121.jpg>
+<a0,fr121>
+<image/PID-122.jpg, id=1331, 401.5pt x 301.125pt>
+File: image/PID-122.jpg Graphic file (type jpg)
+<use image/PID-122.jpg>
+Package pdftex.def Info: image/PID-122.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-122.jpg> <a0,fr122>
+<image/PID-123.jpg, id=1341, 401.5pt x 301.125pt>
+File: image/PID-123.jpg Graphic file (type jpg)
+<use image/PID-123.jpg>
+Package pdftex.def Info: image/PID-123.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-123.jpg> <a0,fr123>
+<image/PID-124.jpg, id=1351, 401.5pt x 301.125pt>
+File: image/PID-124.jpg Graphic file (type jpg)
+<use image/PID-124.jpg>
+Package pdftex.def Info: image/PID-124.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-124.jpg> <a0,fr124>
+<image/PID-125.jpg, id=1361, 401.5pt x 301.125pt>
+File: image/PID-125.jpg Graphic file (type jpg)
+<use image/PID-125.jpg>
+Package pdftex.def Info: image/PID-125.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-125.jpg> <a0,fr125>
+<image/PID-126.jpg, id=1371, 401.5pt x 301.125pt>
+File: image/PID-126.jpg Graphic file (type jpg)
+<use image/PID-126.jpg>
+Package pdftex.def Info: image/PID-126.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-126.jpg> <a0,fr126>
+<image/PID-127.jpg, id=1381, 401.5pt x 301.125pt>
+File: image/PID-127.jpg Graphic file (type jpg)
+<use image/PID-127.jpg>
+Package pdftex.def Info: image/PID-127.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-127.jpg> <a0,fr127>
+<image/PID-128.jpg, id=1391, 401.5pt x 301.125pt>
+File: image/PID-128.jpg Graphic file (type jpg)
+<use image/PID-128.jpg>
+Package pdftex.def Info: image/PID-128.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-128.jpg>
+<a0,fr128>
+<image/PID-129.jpg, id=1401, 401.5pt x 301.125pt>
+File: image/PID-129.jpg Graphic file (type jpg)
+<use image/PID-129.jpg>
+Package pdftex.def Info: image/PID-129.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-129.jpg> <a0,fr129>
+<image/PID-130.jpg, id=1411, 401.5pt x 301.125pt>
+File: image/PID-130.jpg Graphic file (type jpg)
+<use image/PID-130.jpg>
+Package pdftex.def Info: image/PID-130.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-130.jpg> <a0,fr130>
+<image/PID-131.jpg, id=1421, 401.5pt x 301.125pt>
+File: image/PID-131.jpg Graphic file (type jpg)
+<use image/PID-131.jpg>
+Package pdftex.def Info: image/PID-131.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-131.jpg> <a0,fr131>
+<image/PID-132.jpg, id=1432, 401.5pt x 301.125pt>
+File: image/PID-132.jpg Graphic file (type jpg)
+<use image/PID-132.jpg>
+Package pdftex.def Info: image/PID-132.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-132.jpg> <a0,fr132>
+<image/PID-133.jpg, id=1442, 401.5pt x 301.125pt>
+File: image/PID-133.jpg Graphic file (type jpg)
+<use image/PID-133.jpg>
+Package pdftex.def Info: image/PID-133.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-133.jpg> <a0,fr133>
+<image/PID-134.jpg, id=1452, 401.5pt x 301.125pt>
+File: image/PID-134.jpg Graphic file (type jpg)
+<use image/PID-134.jpg>
+Package pdftex.def Info: image/PID-134.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-134.jpg> <a0,fr134>
+<image/PID-135.jpg, id=1462, 401.5pt x 301.125pt>
+File: image/PID-135.jpg Graphic file (type jpg)
+<use image/PID-135.jpg>
+Package pdftex.def Info: image/PID-135.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-135.jpg>
+<a0,fr135>
+<image/PID-136.jpg, id=1472, 401.5pt x 301.125pt>
+File: image/PID-136.jpg Graphic file (type jpg)
+<use image/PID-136.jpg>
+Package pdftex.def Info: image/PID-136.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-136.jpg> <a0,fr136>
+<image/PID-137.jpg, id=1482, 401.5pt x 301.125pt>
+File: image/PID-137.jpg Graphic file (type jpg)
+<use image/PID-137.jpg>
+Package pdftex.def Info: image/PID-137.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-137.jpg> <a0,fr137>
+<image/PID-138.jpg, id=1492, 401.5pt x 301.125pt>
+File: image/PID-138.jpg Graphic file (type jpg)
+<use image/PID-138.jpg>
+Package pdftex.def Info: image/PID-138.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-138.jpg> <a0,fr138>
+<image/PID-139.jpg, id=1502, 401.5pt x 301.125pt>
+File: image/PID-139.jpg Graphic file (type jpg)
+<use image/PID-139.jpg>
+Package pdftex.def Info: image/PID-139.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-139.jpg> <a0,fr139>
+<image/PID-140.jpg, id=1512, 401.5pt x 301.125pt>
+File: image/PID-140.jpg Graphic file (type jpg)
+<use image/PID-140.jpg>
+Package pdftex.def Info: image/PID-140.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-140.jpg> <a0,fr140>
+<image/PID-141.jpg, id=1522, 401.5pt x 301.125pt>
+File: image/PID-141.jpg Graphic file (type jpg)
+<use image/PID-141.jpg>
+Package pdftex.def Info: image/PID-141.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-141.jpg> <a0,fr141>
+<image/PID-142.jpg, id=1532, 401.5pt x 301.125pt>
+File: image/PID-142.jpg Graphic file (type jpg)
+<use image/PID-142.jpg>
+Package pdftex.def Info: image/PID-142.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-142.jpg>
+<a0,fr142>
+<image/PID-143.jpg, id=1542, 401.5pt x 301.125pt>
+File: image/PID-143.jpg Graphic file (type jpg)
+<use image/PID-143.jpg>
+Package pdftex.def Info: image/PID-143.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-143.jpg> <a0,fr143>
+<image/PID-144.jpg, id=1552, 401.5pt x 301.125pt>
+File: image/PID-144.jpg Graphic file (type jpg)
+<use image/PID-144.jpg>
+Package pdftex.def Info: image/PID-144.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-144.jpg> <a0,fr144>
+<image/PID-145.jpg, id=1562, 401.5pt x 301.125pt>
+File: image/PID-145.jpg Graphic file (type jpg)
+<use image/PID-145.jpg>
+Package pdftex.def Info: image/PID-145.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-145.jpg> <a0,fr145>
+<image/PID-146.jpg, id=1572, 401.5pt x 301.125pt>
+File: image/PID-146.jpg Graphic file (type jpg)
+<use image/PID-146.jpg>
+Package pdftex.def Info: image/PID-146.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-146.jpg> <a0,fr146>
+<image/PID-147.jpg, id=1582, 401.5pt x 301.125pt>
+File: image/PID-147.jpg Graphic file (type jpg)
+<use image/PID-147.jpg>
+Package pdftex.def Info: image/PID-147.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-147.jpg> <a0,fr147>
+<image/PID-148.jpg, id=1592, 401.5pt x 301.125pt>
+File: image/PID-148.jpg Graphic file (type jpg)
+<use image/PID-148.jpg>
+Package pdftex.def Info: image/PID-148.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-148.jpg> <a0,fr148>
+<image/PID-149.jpg, id=1602, 401.5pt x 301.125pt>
+File: image/PID-149.jpg Graphic file (type jpg)
+<use image/PID-149.jpg>
+Package pdftex.def Info: image/PID-149.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-149.jpg>
+<a0,fr149>
+<image/PID-150.jpg, id=1612, 401.5pt x 301.125pt>
+File: image/PID-150.jpg Graphic file (type jpg)
+<use image/PID-150.jpg>
+Package pdftex.def Info: image/PID-150.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-150.jpg> <a0,fr150>
+<image/PID-151.jpg, id=1622, 401.5pt x 301.125pt>
+File: image/PID-151.jpg Graphic file (type jpg)
+<use image/PID-151.jpg>
+Package pdftex.def Info: image/PID-151.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-151.jpg> <a0,fr151>
+<image/PID-152.jpg, id=1632, 401.5pt x 301.125pt>
+File: image/PID-152.jpg Graphic file (type jpg)
+<use image/PID-152.jpg>
+Package pdftex.def Info: image/PID-152.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-152.jpg> <a0,fr152>
+<image/PID-153.jpg, id=1642, 401.5pt x 301.125pt>
+File: image/PID-153.jpg Graphic file (type jpg)
+<use image/PID-153.jpg>
+Package pdftex.def Info: image/PID-153.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-153.jpg> <a0,fr153>
+<image/PID-154.jpg, id=1652, 401.5pt x 301.125pt>
+File: image/PID-154.jpg Graphic file (type jpg)
+<use image/PID-154.jpg>
+Package pdftex.def Info: image/PID-154.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-154.jpg> <a0,fr154>
+<image/PID-155.jpg, id=1662, 401.5pt x 301.125pt>
+File: image/PID-155.jpg Graphic file (type jpg)
+<use image/PID-155.jpg>
+Package pdftex.def Info: image/PID-155.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-155.jpg> <a0,fr155>
+<image/PID-156.jpg, id=1672, 401.5pt x 301.125pt>
+File: image/PID-156.jpg Graphic file (type jpg)
+<use image/PID-156.jpg>
+Package pdftex.def Info: image/PID-156.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-156.jpg>
+<a0,fr156>
+<image/PID-157.jpg, id=1683, 401.5pt x 301.125pt>
+File: image/PID-157.jpg Graphic file (type jpg)
+<use image/PID-157.jpg>
+Package pdftex.def Info: image/PID-157.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-157.jpg> <a0,fr157>
+<image/PID-158.jpg, id=1693, 401.5pt x 301.125pt>
+File: image/PID-158.jpg Graphic file (type jpg)
+<use image/PID-158.jpg>
+Package pdftex.def Info: image/PID-158.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-158.jpg> <a0,fr158>
+<image/PID-159.jpg, id=1703, 401.5pt x 301.125pt>
+File: image/PID-159.jpg Graphic file (type jpg)
+<use image/PID-159.jpg>
+Package pdftex.def Info: image/PID-159.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-159.jpg> <a0,fr159>
+<image/PID-160.jpg, id=1713, 401.5pt x 301.125pt>
+File: image/PID-160.jpg Graphic file (type jpg)
+<use image/PID-160.jpg>
+Package pdftex.def Info: image/PID-160.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-160.jpg> <a0,fr160>
+<image/PID-161.jpg, id=1723, 401.5pt x 301.125pt>
+File: image/PID-161.jpg Graphic file (type jpg)
+<use image/PID-161.jpg>
+Package pdftex.def Info: image/PID-161.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-161.jpg> <a0,fr161>
+<image/PID-162.jpg, id=1733, 401.5pt x 301.125pt>
+File: image/PID-162.jpg Graphic file (type jpg)
+<use image/PID-162.jpg>
+Package pdftex.def Info: image/PID-162.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-162.jpg> <a0,fr162>
+<image/PID-163.jpg, id=1743, 401.5pt x 301.125pt>
+File: image/PID-163.jpg Graphic file (type jpg)
+<use image/PID-163.jpg>
+Package pdftex.def Info: image/PID-163.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-163.jpg>
+<a0,fr163>
+<image/PID-164.jpg, id=1753, 401.5pt x 301.125pt>
+File: image/PID-164.jpg Graphic file (type jpg)
+<use image/PID-164.jpg>
+Package pdftex.def Info: image/PID-164.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-164.jpg> <a0,fr164>
+<image/PID-165.jpg, id=1763, 401.5pt x 301.125pt>
+File: image/PID-165.jpg Graphic file (type jpg)
+<use image/PID-165.jpg>
+Package pdftex.def Info: image/PID-165.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-165.jpg> <a0,fr165>
+<image/PID-166.jpg, id=1773, 401.5pt x 301.125pt>
+File: image/PID-166.jpg Graphic file (type jpg)
+<use image/PID-166.jpg>
+Package pdftex.def Info: image/PID-166.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-166.jpg> <a0,fr166>
+<image/PID-167.jpg, id=1783, 401.5pt x 301.125pt>
+File: image/PID-167.jpg Graphic file (type jpg)
+<use image/PID-167.jpg>
+Package pdftex.def Info: image/PID-167.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-167.jpg> <a0,fr167>
+<image/PID-168.jpg, id=1793, 401.5pt x 301.125pt>
+File: image/PID-168.jpg Graphic file (type jpg)
+<use image/PID-168.jpg>
+Package pdftex.def Info: image/PID-168.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-168.jpg> <a0,fr168>
+<image/PID-169.jpg, id=1803, 401.5pt x 301.125pt>
+File: image/PID-169.jpg Graphic file (type jpg)
+<use image/PID-169.jpg>
+Package pdftex.def Info: image/PID-169.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-169.jpg> <a0,fr169>
+<image/PID-170.jpg, id=1813, 401.5pt x 301.125pt>
+File: image/PID-170.jpg Graphic file (type jpg)
+<use image/PID-170.jpg>
+Package pdftex.def Info: image/PID-170.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-170.jpg>
+<a0,fr170>
+<image/PID-171.jpg, id=1823, 401.5pt x 301.125pt>
+File: image/PID-171.jpg Graphic file (type jpg)
+<use image/PID-171.jpg>
+Package pdftex.def Info: image/PID-171.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-171.jpg> <a0,fr171>
+<image/PID-172.jpg, id=1833, 401.5pt x 301.125pt>
+File: image/PID-172.jpg Graphic file (type jpg)
+<use image/PID-172.jpg>
+Package pdftex.def Info: image/PID-172.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-172.jpg> <a0,fr172>
+<image/PID-173.jpg, id=1843, 401.5pt x 301.125pt>
+File: image/PID-173.jpg Graphic file (type jpg)
+<use image/PID-173.jpg>
+Package pdftex.def Info: image/PID-173.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-173.jpg> <a0,fr173>
+<image/PID-174.jpg, id=1853, 401.5pt x 301.125pt>
+File: image/PID-174.jpg Graphic file (type jpg)
+<use image/PID-174.jpg>
+Package pdftex.def Info: image/PID-174.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-174.jpg> <a0,fr174>
+<image/PID-175.jpg, id=1863, 401.5pt x 301.125pt>
+File: image/PID-175.jpg Graphic file (type jpg)
+<use image/PID-175.jpg>
+Package pdftex.def Info: image/PID-175.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-175.jpg> <a0,fr175>
+<image/PID-176.jpg, id=1873, 401.5pt x 301.125pt>
+File: image/PID-176.jpg Graphic file (type jpg)
+<use image/PID-176.jpg>
+Package pdftex.def Info: image/PID-176.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-176.jpg> <a0,fr176>
+<image/PID-177.jpg, id=1883, 401.5pt x 301.125pt>
+File: image/PID-177.jpg Graphic file (type jpg)
+<use image/PID-177.jpg>
+Package pdftex.def Info: image/PID-177.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-177.jpg>
+<a0,fr177>
+<image/PID-178.jpg, id=1893, 401.5pt x 301.125pt>
+File: image/PID-178.jpg Graphic file (type jpg)
+<use image/PID-178.jpg>
+Package pdftex.def Info: image/PID-178.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-178.jpg> <a0,fr178>
+<image/PID-179.jpg, id=1903, 401.5pt x 301.125pt>
+File: image/PID-179.jpg Graphic file (type jpg)
+<use image/PID-179.jpg>
+Package pdftex.def Info: image/PID-179.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-179.jpg> <a0,fr179>
+<image/PID-180.jpg, id=1913, 401.5pt x 301.125pt>
+File: image/PID-180.jpg Graphic file (type jpg)
+<use image/PID-180.jpg>
+Package pdftex.def Info: image/PID-180.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-180.jpg> <a0,fr180>
+<image/PID-181.jpg, id=1923, 401.5pt x 301.125pt>
+File: image/PID-181.jpg Graphic file (type jpg)
+<use image/PID-181.jpg>
+Package pdftex.def Info: image/PID-181.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-181.jpg> <a0,fr181>
+<image/PID-182.jpg, id=1934, 401.5pt x 301.125pt>
+File: image/PID-182.jpg Graphic file (type jpg)
+<use image/PID-182.jpg>
+Package pdftex.def Info: image/PID-182.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-182.jpg> <a0,fr182>
+<image/PID-183.jpg, id=1944, 401.5pt x 301.125pt>
+File: image/PID-183.jpg Graphic file (type jpg)
+<use image/PID-183.jpg>
+Package pdftex.def Info: image/PID-183.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-183.jpg> <a0,fr183>
+<image/PID-184.jpg, id=1954, 401.5pt x 301.125pt>
+File: image/PID-184.jpg Graphic file (type jpg)
+<use image/PID-184.jpg>
+Package pdftex.def Info: image/PID-184.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-184.jpg>
+<a0,fr184>
+<image/PID-185.jpg, id=1964, 401.5pt x 301.125pt>
+File: image/PID-185.jpg Graphic file (type jpg)
+<use image/PID-185.jpg>
+Package pdftex.def Info: image/PID-185.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-185.jpg> <a0,fr185>
+<image/PID-186.jpg, id=1974, 401.5pt x 301.125pt>
+File: image/PID-186.jpg Graphic file (type jpg)
+<use image/PID-186.jpg>
+Package pdftex.def Info: image/PID-186.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-186.jpg> <a0,fr186>
+<image/PID-187.jpg, id=1984, 401.5pt x 301.125pt>
+File: image/PID-187.jpg Graphic file (type jpg)
+<use image/PID-187.jpg>
+Package pdftex.def Info: image/PID-187.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-187.jpg> <a0,fr187>
+<image/PID-188.jpg, id=1994, 401.5pt x 301.125pt>
+File: image/PID-188.jpg Graphic file (type jpg)
+<use image/PID-188.jpg>
+Package pdftex.def Info: image/PID-188.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-188.jpg> <a0,fr188>
+<image/PID-189.jpg, id=2004, 401.5pt x 301.125pt>
+File: image/PID-189.jpg Graphic file (type jpg)
+<use image/PID-189.jpg>
+Package pdftex.def Info: image/PID-189.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-189.jpg> <a0,fr189>
+<image/PID-190.jpg, id=2014, 401.5pt x 301.125pt>
+File: image/PID-190.jpg Graphic file (type jpg)
+<use image/PID-190.jpg>
+Package pdftex.def Info: image/PID-190.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-190.jpg> <a0,fr190>
+<image/PID-191.jpg, id=2024, 401.5pt x 301.125pt>
+File: image/PID-191.jpg Graphic file (type jpg)
+<use image/PID-191.jpg>
+Package pdftex.def Info: image/PID-191.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-191.jpg>
+<a0,fr191>
+<image/PID-192.jpg, id=2034, 401.5pt x 301.125pt>
+File: image/PID-192.jpg Graphic file (type jpg)
+<use image/PID-192.jpg>
+Package pdftex.def Info: image/PID-192.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-192.jpg> <a0,fr192>
+<image/PID-193.jpg, id=2044, 401.5pt x 301.125pt>
+File: image/PID-193.jpg Graphic file (type jpg)
+<use image/PID-193.jpg>
+Package pdftex.def Info: image/PID-193.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-193.jpg> <a0,fr193>
+<image/PID-194.jpg, id=2054, 401.5pt x 301.125pt>
+File: image/PID-194.jpg Graphic file (type jpg)
+<use image/PID-194.jpg>
+Package pdftex.def Info: image/PID-194.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-194.jpg> <a0,fr194>
+<image/PID-195.jpg, id=2064, 401.5pt x 301.125pt>
+File: image/PID-195.jpg Graphic file (type jpg)
+<use image/PID-195.jpg>
+Package pdftex.def Info: image/PID-195.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-195.jpg> <a0,fr195>
+<image/PID-196.jpg, id=2074, 401.5pt x 301.125pt>
+File: image/PID-196.jpg Graphic file (type jpg)
+<use image/PID-196.jpg>
+Package pdftex.def Info: image/PID-196.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-196.jpg> <a0,fr196>
+<image/PID-197.jpg, id=2084, 401.5pt x 301.125pt>
+File: image/PID-197.jpg Graphic file (type jpg)
+<use image/PID-197.jpg>
+Package pdftex.def Info: image/PID-197.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-197.jpg> <a0,fr197>
+<image/PID-198.jpg, id=2094, 401.5pt x 301.125pt>
+File: image/PID-198.jpg Graphic file (type jpg)
+<use image/PID-198.jpg>
+Package pdftex.def Info: image/PID-198.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-198.jpg>
+<a0,fr198>
+<image/PID-199.jpg, id=2104, 401.5pt x 301.125pt>
+File: image/PID-199.jpg Graphic file (type jpg)
+<use image/PID-199.jpg>
+Package pdftex.def Info: image/PID-199.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-199.jpg> <a0,fr199>
+<image/PID-200.jpg, id=2114, 401.5pt x 301.125pt>
+File: image/PID-200.jpg Graphic file (type jpg)
+<use image/PID-200.jpg>
+Package pdftex.def Info: image/PID-200.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-200.jpg> <a0,fr200>
+<image/PID-201.jpg, id=2124, 401.5pt x 301.125pt>
+File: image/PID-201.jpg Graphic file (type jpg)
+<use image/PID-201.jpg>
+Package pdftex.def Info: image/PID-201.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-201.jpg> <a0,fr201>
+<image/PID-202.jpg, id=2134, 401.5pt x 301.125pt>
+File: image/PID-202.jpg Graphic file (type jpg)
+<use image/PID-202.jpg>
+Package pdftex.def Info: image/PID-202.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-202.jpg> <a0,fr202>
+<image/PID-203.jpg, id=2144, 401.5pt x 301.125pt>
+File: image/PID-203.jpg Graphic file (type jpg)
+<use image/PID-203.jpg>
+Package pdftex.def Info: image/PID-203.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-203.jpg> <a0,fr203>
+<image/PID-204.jpg, id=2154, 401.5pt x 301.125pt>
+File: image/PID-204.jpg Graphic file (type jpg)
+<use image/PID-204.jpg>
+Package pdftex.def Info: image/PID-204.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-204.jpg> <a0,fr204>
+<image/PID-205.jpg, id=2164, 401.5pt x 301.125pt>
+File: image/PID-205.jpg Graphic file (type jpg)
+<use image/PID-205.jpg>
+Package pdftex.def Info: image/PID-205.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-205.jpg>
+<a0,fr205>
+<image/PID-206.jpg, id=2174, 401.5pt x 301.125pt>
+File: image/PID-206.jpg Graphic file (type jpg)
+<use image/PID-206.jpg>
+Package pdftex.def Info: image/PID-206.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-206.jpg> <a0,fr206>
+<image/PID-207.jpg, id=2185, 401.5pt x 301.125pt>
+File: image/PID-207.jpg Graphic file (type jpg)
+<use image/PID-207.jpg>
+Package pdftex.def Info: image/PID-207.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-207.jpg> <a0,fr207>
+<image/PID-208.jpg, id=2195, 401.5pt x 301.125pt>
+File: image/PID-208.jpg Graphic file (type jpg)
+<use image/PID-208.jpg>
+Package pdftex.def Info: image/PID-208.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-208.jpg> <a0,fr208>
+<image/PID-209.jpg, id=2205, 401.5pt x 301.125pt>
+File: image/PID-209.jpg Graphic file (type jpg)
+<use image/PID-209.jpg>
+Package pdftex.def Info: image/PID-209.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-209.jpg> <a0,fr209>
+<image/PID-210.jpg, id=2215, 401.5pt x 301.125pt>
+File: image/PID-210.jpg Graphic file (type jpg)
+<use image/PID-210.jpg>
+Package pdftex.def Info: image/PID-210.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-210.jpg> <a0,fr210>
+<image/PID-211.jpg, id=2225, 401.5pt x 301.125pt>
+File: image/PID-211.jpg Graphic file (type jpg)
+<use image/PID-211.jpg>
+Package pdftex.def Info: image/PID-211.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-211.jpg> <a0,fr211>
+<image/PID-212.jpg, id=2235, 401.5pt x 301.125pt>
+File: image/PID-212.jpg Graphic file (type jpg)
+<use image/PID-212.jpg>
+Package pdftex.def Info: image/PID-212.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-212.jpg>
+<a0,fr212>
+<image/PID-213.jpg, id=2245, 401.5pt x 301.125pt>
+File: image/PID-213.jpg Graphic file (type jpg)
+<use image/PID-213.jpg>
+Package pdftex.def Info: image/PID-213.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-213.jpg> <a0,fr213>
+<image/PID-214.jpg, id=2255, 401.5pt x 301.125pt>
+File: image/PID-214.jpg Graphic file (type jpg)
+<use image/PID-214.jpg>
+Package pdftex.def Info: image/PID-214.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-214.jpg> <a0,fr214>
+<image/PID-215.jpg, id=2265, 401.5pt x 301.125pt>
+File: image/PID-215.jpg Graphic file (type jpg)
+<use image/PID-215.jpg>
+Package pdftex.def Info: image/PID-215.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-215.jpg> <a0,fr215>
+<image/PID-216.jpg, id=2275, 401.5pt x 301.125pt>
+File: image/PID-216.jpg Graphic file (type jpg)
+<use image/PID-216.jpg>
+Package pdftex.def Info: image/PID-216.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-216.jpg> <a0,fr216>
+<image/PID-217.jpg, id=2285, 401.5pt x 301.125pt>
+File: image/PID-217.jpg Graphic file (type jpg)
+<use image/PID-217.jpg>
+Package pdftex.def Info: image/PID-217.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-217.jpg> <a0,fr217>
+<image/PID-218.jpg, id=2295, 401.5pt x 301.125pt>
+File: image/PID-218.jpg Graphic file (type jpg)
+<use image/PID-218.jpg>
+Package pdftex.def Info: image/PID-218.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-218.jpg> <a0,fr218>
+<image/PID-219.jpg, id=2305, 401.5pt x 301.125pt>
+File: image/PID-219.jpg Graphic file (type jpg)
+<use image/PID-219.jpg>
+Package pdftex.def Info: image/PID-219.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-219.jpg>
+<a0,fr219>
+<image/PID-220.jpg, id=2315, 401.5pt x 301.125pt>
+File: image/PID-220.jpg Graphic file (type jpg)
+<use image/PID-220.jpg>
+Package pdftex.def Info: image/PID-220.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-220.jpg> <a0,fr220>
+<image/PID-221.jpg, id=2325, 401.5pt x 301.125pt>
+File: image/PID-221.jpg Graphic file (type jpg)
+<use image/PID-221.jpg>
+Package pdftex.def Info: image/PID-221.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-221.jpg> <a0,fr221>
+<image/PID-222.jpg, id=2335, 401.5pt x 301.125pt>
+File: image/PID-222.jpg Graphic file (type jpg)
+<use image/PID-222.jpg>
+Package pdftex.def Info: image/PID-222.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-222.jpg> <a0,fr222>
+<image/PID-223.jpg, id=2345, 401.5pt x 301.125pt>
+File: image/PID-223.jpg Graphic file (type jpg)
+<use image/PID-223.jpg>
+Package pdftex.def Info: image/PID-223.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-223.jpg> <a0,fr223>
+<image/PID-224.jpg, id=2355, 401.5pt x 301.125pt>
+File: image/PID-224.jpg Graphic file (type jpg)
+<use image/PID-224.jpg>
+Package pdftex.def Info: image/PID-224.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-224.jpg> <a0,fr224>
+<image/PID-225.jpg, id=2365, 401.5pt x 301.125pt>
+File: image/PID-225.jpg Graphic file (type jpg)
+<use image/PID-225.jpg>
+Package pdftex.def Info: image/PID-225.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-225.jpg> <a0,fr225>
+<image/PID-226.jpg, id=2375, 401.5pt x 301.125pt>
+File: image/PID-226.jpg Graphic file (type jpg)
+<use image/PID-226.jpg>
+Package pdftex.def Info: image/PID-226.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-226.jpg>
+<a0,fr226>
+<image/PID-227.jpg, id=2385, 401.5pt x 301.125pt>
+File: image/PID-227.jpg Graphic file (type jpg)
+<use image/PID-227.jpg>
+Package pdftex.def Info: image/PID-227.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-227.jpg> <a0,fr227>
+<image/PID-228.jpg, id=2395, 401.5pt x 301.125pt>
+File: image/PID-228.jpg Graphic file (type jpg)
+<use image/PID-228.jpg>
+Package pdftex.def Info: image/PID-228.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-228.jpg> <a0,fr228>
+<image/PID-229.jpg, id=2405, 401.5pt x 301.125pt>
+File: image/PID-229.jpg Graphic file (type jpg)
+<use image/PID-229.jpg>
+Package pdftex.def Info: image/PID-229.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-229.jpg> <a0,fr229>
+<image/PID-230.jpg, id=2415, 401.5pt x 301.125pt>
+File: image/PID-230.jpg Graphic file (type jpg)
+<use image/PID-230.jpg>
+Package pdftex.def Info: image/PID-230.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-230.jpg> <a0,fr230>
+<image/PID-231.jpg, id=2425, 401.5pt x 301.125pt>
+File: image/PID-231.jpg Graphic file (type jpg)
+<use image/PID-231.jpg>
+Package pdftex.def Info: image/PID-231.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-231.jpg> <a0,fr231>
+<image/PID-232.jpg, id=2436, 401.5pt x 301.125pt>
+File: image/PID-232.jpg Graphic file (type jpg)
+<use image/PID-232.jpg>
+Package pdftex.def Info: image/PID-232.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-232.jpg> <a0,fr232>
+<image/PID-233.jpg, id=2446, 401.5pt x 301.125pt>
+File: image/PID-233.jpg Graphic file (type jpg)
+<use image/PID-233.jpg>
+Package pdftex.def Info: image/PID-233.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-233.jpg>
+<a0,fr233>
+<image/PID-234.jpg, id=2456, 401.5pt x 301.125pt>
+File: image/PID-234.jpg Graphic file (type jpg)
+<use image/PID-234.jpg>
+Package pdftex.def Info: image/PID-234.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-234.jpg> <a0,fr234>
+<image/PID-235.jpg, id=2466, 401.5pt x 301.125pt>
+File: image/PID-235.jpg Graphic file (type jpg)
+<use image/PID-235.jpg>
+Package pdftex.def Info: image/PID-235.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-235.jpg> <a0,fr235>
+<image/PID-236.jpg, id=2476, 401.5pt x 301.125pt>
+File: image/PID-236.jpg Graphic file (type jpg)
+<use image/PID-236.jpg>
+Package pdftex.def Info: image/PID-236.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-236.jpg> <a0,fr236>
+<image/PID-237.jpg, id=2486, 401.5pt x 301.125pt>
+File: image/PID-237.jpg Graphic file (type jpg)
+<use image/PID-237.jpg>
+Package pdftex.def Info: image/PID-237.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-237.jpg> <a0,fr237>
+<image/PID-238.jpg, id=2496, 401.5pt x 301.125pt>
+File: image/PID-238.jpg Graphic file (type jpg)
+<use image/PID-238.jpg>
+Package pdftex.def Info: image/PID-238.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-238.jpg> <a0,fr238>
+<image/PID-239.jpg, id=2506, 401.5pt x 301.125pt>
+File: image/PID-239.jpg Graphic file (type jpg)
+<use image/PID-239.jpg>
+Package pdftex.def Info: image/PID-239.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-239.jpg> <a0,fr239>
+<image/PID-240.jpg, id=2516, 401.5pt x 301.125pt>
+File: image/PID-240.jpg Graphic file (type jpg)
+<use image/PID-240.jpg>
+Package pdftex.def Info: image/PID-240.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-240.jpg>
+<a0,fr240>
+<image/PID-241.jpg, id=2526, 401.5pt x 301.125pt>
+File: image/PID-241.jpg Graphic file (type jpg)
+<use image/PID-241.jpg>
+Package pdftex.def Info: image/PID-241.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-241.jpg> <a0,fr241>
+<image/PID-242.jpg, id=2536, 401.5pt x 301.125pt>
+File: image/PID-242.jpg Graphic file (type jpg)
+<use image/PID-242.jpg>
+Package pdftex.def Info: image/PID-242.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-242.jpg> <a0,fr242>
+<image/PID-243.jpg, id=2546, 401.5pt x 301.125pt>
+File: image/PID-243.jpg Graphic file (type jpg)
+<use image/PID-243.jpg>
+Package pdftex.def Info: image/PID-243.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-243.jpg> <a0,fr243>
+<image/PID-244.jpg, id=2556, 401.5pt x 301.125pt>
+File: image/PID-244.jpg Graphic file (type jpg)
+<use image/PID-244.jpg>
+Package pdftex.def Info: image/PID-244.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-244.jpg> <a0,fr244>
+<image/PID-245.jpg, id=2566, 401.5pt x 301.125pt>
+File: image/PID-245.jpg Graphic file (type jpg)
+<use image/PID-245.jpg>
+Package pdftex.def Info: image/PID-245.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-245.jpg> <a0,fr245>
+<image/PID-246.jpg, id=2576, 401.5pt x 301.125pt>
+File: image/PID-246.jpg Graphic file (type jpg)
+<use image/PID-246.jpg>
+Package pdftex.def Info: image/PID-246.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-246.jpg> <a0,fr246>
+<image/PID-247.jpg, id=2586, 401.5pt x 301.125pt>
+File: image/PID-247.jpg Graphic file (type jpg)
+<use image/PID-247.jpg>
+Package pdftex.def Info: image/PID-247.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-247.jpg>
+<a0,fr247>
+<image/PID-248.jpg, id=2596, 401.5pt x 301.125pt>
+File: image/PID-248.jpg Graphic file (type jpg)
+<use image/PID-248.jpg>
+Package pdftex.def Info: image/PID-248.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-248.jpg> <a0,fr248>
+<image/PID-249.jpg, id=2606, 401.5pt x 301.125pt>
+File: image/PID-249.jpg Graphic file (type jpg)
+<use image/PID-249.jpg>
+Package pdftex.def Info: image/PID-249.jpg  used on input line 243.
+(pdftex.def)             Requested size: 401.49901pt x 301.12425pt.
+ <./image/PID-249.jpg> <a0,fr249>
+Overfull \hbox (15.03052pt too wide) in paragraph at lines 243--246
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (6.9704pt too wide) in paragraph at lines 243--246
+\OT1/cmr/m/n/10 Si l'ani-ma-tion ne fonc-tionne pas : []$\OT1/cmtt/m/n/10 https
+ : / / github . com / SlaynPool / PROJET-[]IDO / blob / master / Rapport / imag
+e /
+ []
+
+[7 <./image/SimOpenLoop.jpg> <./image/SchemaPID.jpg> <./image/IllustrationGrapP
+ID.jpg>] [8])
+Runaway argument?
+{Quelle sont les elements que nous voulons recevoir et emettre au-(x)\ETC.
+! File ended while scanning use of \@xdblarg.
+<inserted text> 
+                \par 
+<*> rapport.tex
+               
+? 
+
+*
+(Please type a command or say `\end')
+*\end
+
+*
+Runaway argument?
+! Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? quit
+OK, entering \batchmode...
+! Emergency stop.
+<*> 
+    
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 24868 strings out of 492167
+ 428755 string characters out of 6131559
+ 694842 words of memory out of 5000000
+ 28740 multiletter control sequences out of 15000+600000
+ 541576 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,22n,99p,1117b,2519s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
